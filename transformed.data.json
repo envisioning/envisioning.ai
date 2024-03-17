@@ -1,0 +1,1154 @@
+{
+    "nodes": [
+        {
+            "id": "Welcome",
+            "title": "Envisioning.AI",
+            "description": "Emerging vocabulary to explain AI",
+            "parent_id": null,
+            "level": 1,
+            "chapter": null
+        },
+        {
+            "id": "1",
+            "title": "1. Foundations",
+            "description": "Understanding the fundamental principles, theories, and mathematical underpinnings critical to AI development and research.",
+            "parent_id": "Welcome",
+            "level": 2,
+            "chapter": 1
+        },
+        {
+            "id": "1.1",
+            "title": "1.1 Theoretical Concepts",
+            "description": "Mathematical and statistical foundations essential for modeling and solving problems using AI, including graph theory and the concept of vectorization.",
+            "parent_id": "1",
+            "level": 3,
+            "chapter": 1
+        },
+        {
+            "id": "Black Box",
+            "title": "Black Box",
+            "description": "System or model whose internal workings are not visible or understandable to the user, only the input and output are known.",
+            "parent_id": "1.1",
+            "level": 4,
+            "chapter": 1
+        },
+        {
+            "id": "Causal Inference",
+            "title": "Causal Inference",
+            "description": "Process of determining the cause-and-effect relationship between variables.",
+            "parent_id": "1.1",
+            "level": 4,
+            "chapter": 1
+        },
+        {
+            "id": "Deterministic",
+            "title": "Deterministic",
+            "description": "System or process is one that, given a particular initial state, will always produce the same output or result, with no randomness or unpredictability involved.",
+            "parent_id": "1.1",
+            "level": 4,
+            "chapter": 1
+        },
+        {
+            "id": "Graph Theory",
+            "title": "Graph Theory",
+            "description": "Field of mathematics and computer science focusing on the properties of graphs, which are structures made up of vertices (or nodes) connected by edges.",
+            "parent_id": "1.1",
+            "level": 4,
+            "chapter": 1
+        },
+        {
+            "id": "Optimization Problem",
+            "title": "Optimization Problem",
+            "description": "Optimization problem in AI which involves finding the best solution from all feasible solutions, given a set of constraints and an objective to achieve or optimize.",
+            "parent_id": "1.1",
+            "level": 4,
+            "chapter": 1
+        },
+        {
+            "id": "Scalar",
+            "title": "Scalar",
+            "description": "Single numerical value, typically representing a quantity or magnitude in mathematical or computational models.",
+            "parent_id": "1.1",
+            "level": 4,
+            "chapter": 1
+        },
+        {
+            "id": "Stochastic",
+            "title": "Stochastic",
+            "description": "Systems or processes that are inherently random, involving variables that are subject to chance.",
+            "parent_id": "1.1",
+            "level": 4,
+            "chapter": 1
+        },
+        {
+            "id": "Structured Data",
+            "title": "Structured Data",
+            "description": "Information that is highly organized and formatted in a way that is easily searchable and accessible by computer systems, typically stored in databases.",
+            "parent_id": "1.1",
+            "level": 4,
+            "chapter": 1
+        },
+        {
+            "id": "Symbolic AI",
+            "title": "Symbolic AI",
+            "description": "Also known as Good Old-Fashioned AI (GOFAI), involves the manipulation of symbols to represent problems and compute solutions through rules.",
+            "parent_id": "1.1",
+            "level": 4,
+            "chapter": 1
+        },
+        {
+            "id": "Unstructured Data",
+            "title": "Unstructured Data",
+            "description": "Data that lacks a pre-defined format or organization, making it challenging to collect, process, and analyze using conventional database tools.",
+            "parent_id": "1.1",
+            "level": 4,
+            "chapter": 1
+        },
+        {
+            "id": "Vectorization",
+            "title": "Vectorization",
+            "description": "Process of converting non-numeric data into numeric format so that it can be used by ML algorithms.",
+            "parent_id": "1.1",
+            "level": 4,
+            "chapter": 1
+        },
+        {
+            "id": "Topic 1.2",
+            "title": "Topic 1.2 Title",
+            "description": "Description of Topic 1.2",
+            "parent_id": "1",
+            "level": 3,
+            "chapter": 1
+        },
+        {
+            "id": "Leaf 1.2.1",
+            "title": "Leaf 1.2.1 Title",
+            "description": "Description of Leaf 1.2.1",
+            "parent_id": "Topic 1.2",
+            "level": 4,
+            "chapter": 1
+        },
+        {
+            "id": "Leaf 1.2.2",
+            "title": "Leaf 1.2.2 Title",
+            "description": "Description of Leaf 1.2.2",
+            "parent_id": "Topic 1.2",
+            "level": 4,
+            "chapter": 1
+        },
+        {
+            "id": "Leaf 1.2.3",
+            "title": "Leaf 1.2.3 Title",
+            "description": "Description of Leaf 1.2.3",
+            "parent_id": "Topic 1.2",
+            "level": 4,
+            "chapter": 1
+        },
+        {
+            "id": "Leaf 1.2.4",
+            "title": "Leaf 1.2.4 Title",
+            "description": "Description of Leaf 1.2.4",
+            "parent_id": "Topic 1.2",
+            "level": 4,
+            "chapter": 1
+        },
+        {
+            "id": "Leaf 1.2.5",
+            "title": "Leaf 1.2.5 Title",
+            "description": "Description of Leaf 1.2.5",
+            "parent_id": "Topic 1.2",
+            "level": 4,
+            "chapter": 1
+        },
+        {
+            "id": "Topic 1.3",
+            "title": "Topic 1.3 Title",
+            "description": "Description of Topic 1.3",
+            "parent_id": "1",
+            "level": 3,
+            "chapter": 1
+        },
+        {
+            "id": "Leaf 1.3.1",
+            "title": "Leaf 1.3.1 Title",
+            "description": "Description of Leaf 1.3.1",
+            "parent_id": "Topic 1.3",
+            "level": 4,
+            "chapter": 1
+        },
+        {
+            "id": "Leaf 1.3.2",
+            "title": "Leaf 1.3.2 Title",
+            "description": "Description of Leaf 1.3.2",
+            "parent_id": "Topic 1.3",
+            "level": 4,
+            "chapter": 1
+        },
+        {
+            "id": "Leaf 1.3.3",
+            "title": "Leaf 1.3.3 Title",
+            "description": "Description of Leaf 1.3.3",
+            "parent_id": "Topic 1.3",
+            "level": 4,
+            "chapter": 1
+        },
+        {
+            "id": "Leaf 1.3.4",
+            "title": "Leaf 1.3.4 Title",
+            "description": "Description of Leaf 1.3.4",
+            "parent_id": "Topic 1.3",
+            "level": 4,
+            "chapter": 1
+        },
+        {
+            "id": "Leaf 1.3.5",
+            "title": "Leaf 1.3.5 Title",
+            "description": "Description of Leaf 1.3.5",
+            "parent_id": "Topic 1.3",
+            "level": 4,
+            "chapter": 1
+        },
+        {
+            "id": "Chapter 2",
+            "title": "Chapter 2 Title",
+            "description": "Description of Chapter 2",
+            "parent_id": "Welcome",
+            "level": 2,
+            "chapter": 2
+        },
+        {
+            "id": "Topic 2.1",
+            "title": "Topic 2.1 Title",
+            "description": "Description of Topic 2.1",
+            "parent_id": "Chapter 2",
+            "level": 3,
+            "chapter": 2
+        },
+        {
+            "id": "Leaf 2.1.1",
+            "title": "Leaf 2.1.1 Title",
+            "description": "Description of Leaf 2.1.1",
+            "parent_id": "Topic 2.1",
+            "level": 4,
+            "chapter": 2
+        },
+        {
+            "id": "Leaf 2.1.2",
+            "title": "Leaf 2.1.2 Title",
+            "description": "Description of Leaf 2.1.2",
+            "parent_id": "Topic 2.1",
+            "level": 4,
+            "chapter": 2
+        },
+        {
+            "id": "Leaf 2.1.3",
+            "title": "Leaf 2.1.3 Title",
+            "description": "Description of Leaf 2.1.3",
+            "parent_id": "Topic 2.1",
+            "level": 4,
+            "chapter": 2
+        },
+        {
+            "id": "Leaf 2.1.4",
+            "title": "Leaf 2.1.4 Title",
+            "description": "Description of Leaf 2.1.4",
+            "parent_id": "Topic 2.1",
+            "level": 4,
+            "chapter": 2
+        },
+        {
+            "id": "Leaf 2.1.5",
+            "title": "Leaf 2.1.5 Title",
+            "description": "Description of Leaf 2.1.5",
+            "parent_id": "Topic 2.1",
+            "level": 4,
+            "chapter": 2
+        },
+        {
+            "id": "Topic 2.2",
+            "title": "Topic 2.2 Title",
+            "description": "Description of Topic 2.2",
+            "parent_id": "Chapter 2",
+            "level": 3,
+            "chapter": 2
+        },
+        {
+            "id": "Leaf 2.2.1",
+            "title": "Leaf 2.2.1 Title",
+            "description": "Description of Leaf 2.2.1",
+            "parent_id": "Topic 2.2",
+            "level": 4,
+            "chapter": 2
+        },
+        {
+            "id": "Leaf 2.2.2",
+            "title": "Leaf 2.2.2 Title",
+            "description": "Description of Leaf 2.2.2",
+            "parent_id": "Topic 2.2",
+            "level": 4,
+            "chapter": 2
+        },
+        {
+            "id": "Leaf 2.2.3",
+            "title": "Leaf 2.2.3 Title",
+            "description": "Description of Leaf 2.2.3",
+            "parent_id": "Topic 2.2",
+            "level": 4,
+            "chapter": 2
+        },
+        {
+            "id": "Leaf 2.2.4",
+            "title": "Leaf 2.2.4 Title",
+            "description": "Description of Leaf 2.2.4",
+            "parent_id": "Topic 2.2",
+            "level": 4,
+            "chapter": 2
+        },
+        {
+            "id": "Leaf 2.2.5",
+            "title": "Leaf 2.2.5 Title",
+            "description": "Description of Leaf 2.2.5",
+            "parent_id": "Topic 2.2",
+            "level": 4,
+            "chapter": 2
+        },
+        {
+            "id": "Chapter 3",
+            "title": "Chapter 3 Title",
+            "description": "Description of Chapter 3",
+            "parent_id": "Welcome",
+            "level": 2,
+            "chapter": 3
+        },
+        {
+            "id": "Topic 3.1",
+            "title": "Topic 3.1 Title",
+            "description": "Description of Topic 3.1",
+            "parent_id": "Chapter 3",
+            "level": 3,
+            "chapter": 3
+        },
+        {
+            "id": "Leaf 3.1.1",
+            "title": "Leaf 3.1.1 Title",
+            "description": "Description of Leaf 3.1.1",
+            "parent_id": "Topic 3.1",
+            "level": 4,
+            "chapter": 3
+        },
+        {
+            "id": "Leaf 3.1.2",
+            "title": "Leaf 3.1.2 Title",
+            "description": "Description of Leaf 3.1.2",
+            "parent_id": "Topic 3.1",
+            "level": 4,
+            "chapter": 3
+        },
+        {
+            "id": "Leaf 3.1.3",
+            "title": "Leaf 3.1.3 Title",
+            "description": "Description of Leaf 3.1.3",
+            "parent_id": "Topic 3.1",
+            "level": 4,
+            "chapter": 3
+        },
+        {
+            "id": "Leaf 3.1.4",
+            "title": "Leaf 3.1.4 Title",
+            "description": "Description of Leaf 3.1.4",
+            "parent_id": "Topic 3.1",
+            "level": 4,
+            "chapter": 3
+        },
+        {
+            "id": "Leaf 3.1.5",
+            "title": "Leaf 3.1.5 Title",
+            "description": "Description of Leaf 3.1.5",
+            "parent_id": "Topic 3.1",
+            "level": 4,
+            "chapter": 3
+        },
+        {
+            "id": "Topic 3.2",
+            "title": "Topic 3.2 Title",
+            "description": "Description of Topic 3.2",
+            "parent_id": "Chapter 3",
+            "level": 3,
+            "chapter": 3
+        },
+        {
+            "id": "Leaf 3.2.1",
+            "title": "Leaf 3.2.1 Title",
+            "description": "Description of Leaf 3.2.1",
+            "parent_id": "Topic 3.2",
+            "level": 4,
+            "chapter": 3
+        },
+        {
+            "id": "Leaf 3.2.2",
+            "title": "Leaf 3.2.2 Title",
+            "description": "Description of Leaf 3.2.2",
+            "parent_id": "Topic 3.2",
+            "level": 4,
+            "chapter": 3
+        },
+        {
+            "id": "Leaf 3.2.3",
+            "title": "Leaf 3.2.3 Title",
+            "description": "Description of Leaf 3.2.3",
+            "parent_id": "Topic 3.2",
+            "level": 4,
+            "chapter": 3
+        },
+        {
+            "id": "Leaf 3.2.4",
+            "title": "Leaf 3.2.4 Title",
+            "description": "Description of Leaf 3.2.4",
+            "parent_id": "Topic 3.2",
+            "level": 4,
+            "chapter": 3
+        },
+        {
+            "id": "Leaf 3.2.5",
+            "title": "Leaf 3.2.5 Title",
+            "description": "Description of Leaf 3.2.5",
+            "parent_id": "Topic 3.2",
+            "level": 4,
+            "chapter": 3
+        },
+        {
+            "id": "Topic 3.3",
+            "title": "Topic 3.3 Title",
+            "description": "Description of Topic 3.3",
+            "parent_id": "Chapter 3",
+            "level": 3,
+            "chapter": 3
+        },
+        {
+            "id": "Leaf 3.3.1",
+            "title": "Leaf 3.3.1 Title",
+            "description": "Description of Leaf 3.3.1",
+            "parent_id": "Topic 3.3",
+            "level": 4,
+            "chapter": 3
+        },
+        {
+            "id": "Leaf 3.3.2",
+            "title": "Leaf 3.3.2 Title",
+            "description": "Description of Leaf 3.3.2",
+            "parent_id": "Topic 3.3",
+            "level": 4,
+            "chapter": 3
+        },
+        {
+            "id": "Leaf 3.3.3",
+            "title": "Leaf 3.3.3 Title",
+            "description": "Description of Leaf 3.3.3",
+            "parent_id": "Topic 3.3",
+            "level": 4,
+            "chapter": 3
+        },
+        {
+            "id": "Leaf 3.3.4",
+            "title": "Leaf 3.3.4 Title",
+            "description": "Description of Leaf 3.3.4",
+            "parent_id": "Topic 3.3",
+            "level": 4,
+            "chapter": 3
+        },
+        {
+            "id": "Leaf 3.3.5",
+            "title": "Leaf 3.3.5 Title",
+            "description": "Description of Leaf 3.3.5",
+            "parent_id": "Topic 3.3",
+            "level": 4,
+            "chapter": 3
+        },
+        {
+            "id": "Chapter 4",
+            "title": "Chapter 4 Title",
+            "description": "Description of Chapter 4",
+            "parent_id": "Welcome",
+            "level": 2,
+            "chapter": 4
+        },
+        {
+            "id": "Topic 4.1",
+            "title": "Topic 4.1 Title",
+            "description": "Description of Topic 4.1",
+            "parent_id": "Chapter 4",
+            "level": 3,
+            "chapter": 4
+        },
+        {
+            "id": "Leaf 4.1.1",
+            "title": "Leaf 4.1.1 Title",
+            "description": "Description of Leaf 4.1.1",
+            "parent_id": "Topic 4.1",
+            "level": 4,
+            "chapter": 4
+        },
+        {
+            "id": "Leaf 4.1.2",
+            "title": "Leaf 4.1.2 Title",
+            "description": "Description of Leaf 4.1.2",
+            "parent_id": "Topic 4.1",
+            "level": 4,
+            "chapter": 4
+        },
+        {
+            "id": "Leaf 4.1.3",
+            "title": "Leaf 4.1.3 Title",
+            "description": "Description of Leaf 4.1.3",
+            "parent_id": "Topic 4.1",
+            "level": 4,
+            "chapter": 4
+        },
+        {
+            "id": "Leaf 4.1.4",
+            "title": "Leaf 4.1.4 Title",
+            "description": "Description of Leaf 4.1.4",
+            "parent_id": "Topic 4.1",
+            "level": 4,
+            "chapter": 4
+        },
+        {
+            "id": "Leaf 4.1.5",
+            "title": "Leaf 4.1.5 Title",
+            "description": "Description of Leaf 4.1.5",
+            "parent_id": "Topic 4.1",
+            "level": 4,
+            "chapter": 4
+        },
+        {
+            "id": "Topic 4.2",
+            "title": "Topic 4.2 Title",
+            "description": "Description of Topic 4.2",
+            "parent_id": "Chapter 4",
+            "level": 3,
+            "chapter": 4
+        },
+        {
+            "id": "Leaf 4.2.1",
+            "title": "Leaf 4.2.1 Title",
+            "description": "Description of Leaf 4.2.1",
+            "parent_id": "Topic 4.2",
+            "level": 4,
+            "chapter": 4
+        },
+        {
+            "id": "Leaf 4.2.2",
+            "title": "Leaf 4.2.2 Title",
+            "description": "Description of Leaf 4.2.2",
+            "parent_id": "Topic 4.2",
+            "level": 4,
+            "chapter": 4
+        },
+        {
+            "id": "Leaf 4.2.3",
+            "title": "Leaf 4.2.3 Title",
+            "description": "Description of Leaf 4.2.3",
+            "parent_id": "Topic 4.2",
+            "level": 4,
+            "chapter": 4
+        },
+        {
+            "id": "Leaf 4.2.4",
+            "title": "Leaf 4.2.4 Title",
+            "description": "Description of Leaf 4.2.4",
+            "parent_id": "Topic 4.2",
+            "level": 4,
+            "chapter": 4
+        },
+        {
+            "id": "Leaf 4.2.5",
+            "title": "Leaf 4.2.5 Title",
+            "description": "Description of Leaf 4.2.5",
+            "parent_id": "Topic 4.2",
+            "level": 4,
+            "chapter": 4
+        },
+        {
+            "id": "Topic 4.3",
+            "title": "Topic 4.3 Title",
+            "description": "Description of Topic 4.3",
+            "parent_id": "Chapter 4",
+            "level": 3,
+            "chapter": 4
+        },
+        {
+            "id": "Leaf 4.3.1",
+            "title": "Leaf 4.3.1 Title",
+            "description": "Description of Leaf 4.3.1",
+            "parent_id": "Topic 4.3",
+            "level": 4,
+            "chapter": 4
+        },
+        {
+            "id": "Leaf 4.3.2",
+            "title": "Leaf 4.3.2 Title",
+            "description": "Description of Leaf 4.3.2",
+            "parent_id": "Topic 4.3",
+            "level": 4,
+            "chapter": 4
+        },
+        {
+            "id": "Leaf 4.3.3",
+            "title": "Leaf 4.3.3 Title",
+            "description": "Description of Leaf 4.3.3",
+            "parent_id": "Topic 4.3",
+            "level": 4,
+            "chapter": 4
+        },
+        {
+            "id": "Leaf 4.3.4",
+            "title": "Leaf 4.3.4 Title",
+            "description": "Description of Leaf 4.3.4",
+            "parent_id": "Topic 4.3",
+            "level": 4,
+            "chapter": 4
+        },
+        {
+            "id": "Leaf 4.3.5",
+            "title": "Leaf 4.3.5 Title",
+            "description": "Description of Leaf 4.3.5",
+            "parent_id": "Topic 4.3",
+            "level": 4,
+            "chapter": 4
+        },
+        {
+            "id": "Chapter 5",
+            "title": "Chapter 5 Title",
+            "description": "Description of Chapter 5",
+            "parent_id": "Welcome",
+            "level": 2,
+            "chapter": 5
+        },
+        {
+            "id": "Topic 5.1",
+            "title": "Topic 5.1 Title",
+            "description": "Description of Topic 5.1",
+            "parent_id": "Chapter 5",
+            "level": 3,
+            "chapter": 5
+        },
+        {
+            "id": "Leaf 5.1.1",
+            "title": "Leaf 5.1.1 Title",
+            "description": "Description of Leaf 5.1.1",
+            "parent_id": "Topic 5.1",
+            "level": 4,
+            "chapter": 5
+        },
+        {
+            "id": "Leaf 5.1.2",
+            "title": "Leaf 5.1.2 Title",
+            "description": "Description of Leaf 5.1.2",
+            "parent_id": "Topic 5.1",
+            "level": 4,
+            "chapter": 5
+        },
+        {
+            "id": "Leaf 5.1.3",
+            "title": "Leaf 5.1.3 Title",
+            "description": "Description of Leaf 5.1.3",
+            "parent_id": "Topic 5.1",
+            "level": 4,
+            "chapter": 5
+        },
+        {
+            "id": "Leaf 5.1.4",
+            "title": "Leaf 5.1.4 Title",
+            "description": "Description of Leaf 5.1.4",
+            "parent_id": "Topic 5.1",
+            "level": 4,
+            "chapter": 5
+        },
+        {
+            "id": "Leaf 5.1.5",
+            "title": "Leaf 5.1.5 Title",
+            "description": "Description of Leaf 5.1.5",
+            "parent_id": "Topic 5.1",
+            "level": 4,
+            "chapter": 5
+        },
+        {
+            "id": "Topic 5.2",
+            "title": "Topic 5.2 Title",
+            "description": "Description of Topic 5.2",
+            "parent_id": "Chapter 5",
+            "level": 3,
+            "chapter": 5
+        },
+        {
+            "id": "Leaf 5.2.1",
+            "title": "Leaf 5.2.1 Title",
+            "description": "Description of Leaf 5.2.1",
+            "parent_id": "Topic 5.2",
+            "level": 4,
+            "chapter": 5
+        },
+        {
+            "id": "Leaf 5.2.2",
+            "title": "Leaf 5.2.2 Title",
+            "description": "Description of Leaf 5.2.2",
+            "parent_id": "Topic 5.2",
+            "level": 4,
+            "chapter": 5
+        },
+        {
+            "id": "Leaf 5.2.3",
+            "title": "Leaf 5.2.3 Title",
+            "description": "Description of Leaf 5.2.3",
+            "parent_id": "Topic 5.2",
+            "level": 4,
+            "chapter": 5
+        },
+        {
+            "id": "Leaf 5.2.4",
+            "title": "Leaf 5.2.4 Title",
+            "description": "Description of Leaf 5.2.4",
+            "parent_id": "Topic 5.2",
+            "level": 4,
+            "chapter": 5
+        },
+        {
+            "id": "Leaf 5.2.5",
+            "title": "Leaf 5.2.5 Title",
+            "description": "Description of Leaf 5.2.5",
+            "parent_id": "Topic 5.2",
+            "level": 4,
+            "chapter": 5
+        },
+        {
+            "id": "Topic 5.3",
+            "title": "Topic 5.3 Title",
+            "description": "Description of Topic 5.3",
+            "parent_id": "Chapter 5",
+            "level": 3,
+            "chapter": 5
+        },
+        {
+            "id": "Leaf 5.3.1",
+            "title": "Leaf 5.3.1 Title",
+            "description": "Description of Leaf 5.3.1",
+            "parent_id": "Topic 5.3",
+            "level": 4,
+            "chapter": 5
+        },
+        {
+            "id": "Leaf 5.3.2",
+            "title": "Leaf 5.3.2 Title",
+            "description": "Description of Leaf 5.3.2",
+            "parent_id": "Topic 5.3",
+            "level": 4,
+            "chapter": 5
+        },
+        {
+            "id": "Leaf 5.3.3",
+            "title": "Leaf 5.3.3 Title",
+            "description": "Description of Leaf 5.3.3",
+            "parent_id": "Topic 5.3",
+            "level": 4,
+            "chapter": 5
+        },
+        {
+            "id": "Leaf 5.3.4",
+            "title": "Leaf 5.3.4 Title",
+            "description": "Description of Leaf 5.3.4",
+            "parent_id": "Topic 5.3",
+            "level": 4,
+            "chapter": 5
+        },
+        {
+            "id": "Leaf 5.3.5",
+            "title": "Leaf 5.3.5 Title",
+            "description": "Description of Leaf 5.3.5",
+            "parent_id": "Topic 5.3",
+            "level": 4,
+            "chapter": 5
+        }
+    ],
+    "links": [
+        {
+            "source": "Welcome",
+            "target": "1"
+        },
+        {
+            "source": "1",
+            "target": "1.1"
+        },
+        {
+            "source": "1.1",
+            "target": "Black Box"
+        },
+        {
+            "source": "1.1",
+            "target": "Causal Inference"
+        },
+        {
+            "source": "1.1",
+            "target": "Deterministic"
+        },
+        {
+            "source": "1.1",
+            "target": "Graph Theory"
+        },
+        {
+            "source": "1.1",
+            "target": "Optimization Problem"
+        },
+        {
+            "source": "1.1",
+            "target": "Scalar"
+        },
+        {
+            "source": "1.1",
+            "target": "Stochastic"
+        },
+        {
+            "source": "1.1",
+            "target": "Structured Data"
+        },
+        {
+            "source": "1.1",
+            "target": "Symbolic AI"
+        },
+        {
+            "source": "1.1",
+            "target": "Unstructured Data"
+        },
+        {
+            "source": "1.1",
+            "target": "Vectorization"
+        },
+        {
+            "source": "1",
+            "target": "Topic 1.2"
+        },
+        {
+            "source": "Topic 1.2",
+            "target": "Leaf 1.2.1"
+        },
+        {
+            "source": "Topic 1.2",
+            "target": "Leaf 1.2.2"
+        },
+        {
+            "source": "Topic 1.2",
+            "target": "Leaf 1.2.3"
+        },
+        {
+            "source": "Topic 1.2",
+            "target": "Leaf 1.2.4"
+        },
+        {
+            "source": "Topic 1.2",
+            "target": "Leaf 1.2.5"
+        },
+        {
+            "source": "1",
+            "target": "Topic 1.3"
+        },
+        {
+            "source": "Topic 1.3",
+            "target": "Leaf 1.3.1"
+        },
+        {
+            "source": "Topic 1.3",
+            "target": "Leaf 1.3.2"
+        },
+        {
+            "source": "Topic 1.3",
+            "target": "Leaf 1.3.3"
+        },
+        {
+            "source": "Topic 1.3",
+            "target": "Leaf 1.3.4"
+        },
+        {
+            "source": "Topic 1.3",
+            "target": "Leaf 1.3.5"
+        },
+        {
+            "source": "Welcome",
+            "target": "Chapter 2"
+        },
+        {
+            "source": "Chapter 2",
+            "target": "Topic 2.1"
+        },
+        {
+            "source": "Topic 2.1",
+            "target": "Leaf 2.1.1"
+        },
+        {
+            "source": "Topic 2.1",
+            "target": "Leaf 2.1.2"
+        },
+        {
+            "source": "Topic 2.1",
+            "target": "Leaf 2.1.3"
+        },
+        {
+            "source": "Topic 2.1",
+            "target": "Leaf 2.1.4"
+        },
+        {
+            "source": "Topic 2.1",
+            "target": "Leaf 2.1.5"
+        },
+        {
+            "source": "Chapter 2",
+            "target": "Topic 2.2"
+        },
+        {
+            "source": "Topic 2.2",
+            "target": "Leaf 2.2.1"
+        },
+        {
+            "source": "Topic 2.2",
+            "target": "Leaf 2.2.2"
+        },
+        {
+            "source": "Topic 2.2",
+            "target": "Leaf 2.2.3"
+        },
+        {
+            "source": "Topic 2.2",
+            "target": "Leaf 2.2.4"
+        },
+        {
+            "source": "Topic 2.2",
+            "target": "Leaf 2.2.5"
+        },
+        {
+            "source": "Welcome",
+            "target": "Chapter 3"
+        },
+        {
+            "source": "Chapter 3",
+            "target": "Topic 3.1"
+        },
+        {
+            "source": "Topic 3.1",
+            "target": "Leaf 3.1.1"
+        },
+        {
+            "source": "Topic 3.1",
+            "target": "Leaf 3.1.2"
+        },
+        {
+            "source": "Topic 3.1",
+            "target": "Leaf 3.1.3"
+        },
+        {
+            "source": "Topic 3.1",
+            "target": "Leaf 3.1.4"
+        },
+        {
+            "source": "Topic 3.1",
+            "target": "Leaf 3.1.5"
+        },
+        {
+            "source": "Chapter 3",
+            "target": "Topic 3.2"
+        },
+        {
+            "source": "Topic 3.2",
+            "target": "Leaf 3.2.1"
+        },
+        {
+            "source": "Topic 3.2",
+            "target": "Leaf 3.2.2"
+        },
+        {
+            "source": "Topic 3.2",
+            "target": "Leaf 3.2.3"
+        },
+        {
+            "source": "Topic 3.2",
+            "target": "Leaf 3.2.4"
+        },
+        {
+            "source": "Topic 3.2",
+            "target": "Leaf 3.2.5"
+        },
+        {
+            "source": "Chapter 3",
+            "target": "Topic 3.3"
+        },
+        {
+            "source": "Topic 3.3",
+            "target": "Leaf 3.3.1"
+        },
+        {
+            "source": "Topic 3.3",
+            "target": "Leaf 3.3.2"
+        },
+        {
+            "source": "Topic 3.3",
+            "target": "Leaf 3.3.3"
+        },
+        {
+            "source": "Topic 3.3",
+            "target": "Leaf 3.3.4"
+        },
+        {
+            "source": "Topic 3.3",
+            "target": "Leaf 3.3.5"
+        },
+        {
+            "source": "Welcome",
+            "target": "Chapter 4"
+        },
+        {
+            "source": "Chapter 4",
+            "target": "Topic 4.1"
+        },
+        {
+            "source": "Topic 4.1",
+            "target": "Leaf 4.1.1"
+        },
+        {
+            "source": "Topic 4.1",
+            "target": "Leaf 4.1.2"
+        },
+        {
+            "source": "Topic 4.1",
+            "target": "Leaf 4.1.3"
+        },
+        {
+            "source": "Topic 4.1",
+            "target": "Leaf 4.1.4"
+        },
+        {
+            "source": "Topic 4.1",
+            "target": "Leaf 4.1.5"
+        },
+        {
+            "source": "Chapter 4",
+            "target": "Topic 4.2"
+        },
+        {
+            "source": "Topic 4.2",
+            "target": "Leaf 4.2.1"
+        },
+        {
+            "source": "Topic 4.2",
+            "target": "Leaf 4.2.2"
+        },
+        {
+            "source": "Topic 4.2",
+            "target": "Leaf 4.2.3"
+        },
+        {
+            "source": "Topic 4.2",
+            "target": "Leaf 4.2.4"
+        },
+        {
+            "source": "Topic 4.2",
+            "target": "Leaf 4.2.5"
+        },
+        {
+            "source": "Chapter 4",
+            "target": "Topic 4.3"
+        },
+        {
+            "source": "Topic 4.3",
+            "target": "Leaf 4.3.1"
+        },
+        {
+            "source": "Topic 4.3",
+            "target": "Leaf 4.3.2"
+        },
+        {
+            "source": "Topic 4.3",
+            "target": "Leaf 4.3.3"
+        },
+        {
+            "source": "Topic 4.3",
+            "target": "Leaf 4.3.4"
+        },
+        {
+            "source": "Topic 4.3",
+            "target": "Leaf 4.3.5"
+        },
+        {
+            "source": "Welcome",
+            "target": "Chapter 5"
+        },
+        {
+            "source": "Chapter 5",
+            "target": "Topic 5.1"
+        },
+        {
+            "source": "Topic 5.1",
+            "target": "Leaf 5.1.1"
+        },
+        {
+            "source": "Topic 5.1",
+            "target": "Leaf 5.1.2"
+        },
+        {
+            "source": "Topic 5.1",
+            "target": "Leaf 5.1.3"
+        },
+        {
+            "source": "Topic 5.1",
+            "target": "Leaf 5.1.4"
+        },
+        {
+            "source": "Topic 5.1",
+            "target": "Leaf 5.1.5"
+        },
+        {
+            "source": "Chapter 5",
+            "target": "Topic 5.2"
+        },
+        {
+            "source": "Topic 5.2",
+            "target": "Leaf 5.2.1"
+        },
+        {
+            "source": "Topic 5.2",
+            "target": "Leaf 5.2.2"
+        },
+        {
+            "source": "Topic 5.2",
+            "target": "Leaf 5.2.3"
+        },
+        {
+            "source": "Topic 5.2",
+            "target": "Leaf 5.2.4"
+        },
+        {
+            "source": "Topic 5.2",
+            "target": "Leaf 5.2.5"
+        },
+        {
+            "source": "Chapter 5",
+            "target": "Topic 5.3"
+        },
+        {
+            "source": "Topic 5.3",
+            "target": "Leaf 5.3.1"
+        },
+        {
+            "source": "Topic 5.3",
+            "target": "Leaf 5.3.2"
+        },
+        {
+            "source": "Topic 5.3",
+            "target": "Leaf 5.3.3"
+        },
+        {
+            "source": "Topic 5.3",
+            "target": "Leaf 5.3.4"
+        },
+        {
+            "source": "Topic 5.3",
+            "target": "Leaf 5.3.5"
+        }
+    ]
+}
