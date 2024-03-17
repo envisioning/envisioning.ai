@@ -52,9 +52,16 @@ document.addEventListener("DOMContentLoaded", function() {
             .selectAll("g")
             .data(graph.nodes)
             .enter().append("g");
-        
+
+            
+
+
+
+            
+
         node.append("circle")
             .attr("r", 60) // Adjust radius as needed
+
             // Remove the fill attribute modification based on level
             .attr("stroke", "black") // Set the stroke color for all nodes
             .attr("stroke-width", d => {
@@ -78,33 +85,32 @@ document.addEventListener("DOMContentLoaded", function() {
                 if (!d.chapter) return fallbackColors[d.level];
 
                 const colors = {
-                    1: { // Chapter 1 - Blue
-                        2: "#4B8BBE", // Level 2
-                        3: "#357ABD", // Level 3
-                        4: "#2A6EBB"  // Level 4 - Darkest Blue
+                    1: { // Chapter 1 
+                        2: "#824D74", // Level 2
+                        3: "#BE7B72", // Level 3
+                        4: "#FDAF7B"  // Level 4
                     },
-                    2: { // Chapter 2 - Orange
-                        2: "#D9534F", // Level 2
-                        3: "#C0463C", // Level 3
-                        4: "#A83A32"  // Level 4 - Darkest Green
+                    2: { // Chapter 2 
+                        2: "#496989", // Level 2
+                        3: "#58A399", // Level 3
+                        4: "#A8CD9F"  // Level 4
                     },
-                    3: { // Chapter 3 - Blue2
-                        2: "#F0AD4E", // Level 2
-                        3: "#DFA33A", // Level 3
-                        4: "#C89230"  // Level 4 - Darkest Red
+                    3: { // Chapter 3 
+                        2: "#008DDA", // Level 2
+                        3: "#41C9E2", // Level 3
+                        4: "#ACE2E1"  // Level 4
                     },
-                    4: { // Chapter 4 - Green
-                        2: "#45B39E", // Level 2
-                        3: "#3C9E8C", // Level 3
-                        4: "#33897A"  // Level 4 - Darkest Yellow
+                    4: { // Chapter 4 
+                        2: "#FF204E", // Level 2
+                        3: "#A0153E", // Level 3
+                        4: "#5D0E41"  // Level 4
                     },
-                    5: { // Chapter 5 - Yellow
-                        2: "#C2A66C", // Level 2
-                        3: "#AD925B", // Level 3
-                        4: "#987F4A"  // Level 4 - Darkest Purple
+                    5: { // Chapter 5 
+                        2: "#FDA403", // Level 2
+                        3: "#E8751A", // Level 3
+                        4: "#898121"  // Level 4
                     }
                 };
-
                 // Use chapter and level to determine color
                 return colors[d.chapter][d.level];
             })

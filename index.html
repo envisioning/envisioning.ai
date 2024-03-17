@@ -5,12 +5,14 @@
     <meta charset="utf-8">
     <title>Hierarchical Diagram</title>
     <style>
-                body, html {
+            body, html {
             margin: 0;
             padding: 0;
             width: 100%;
             height: 100%;
-            background-color: #1E1E1E;
+            background-color: #0f0f0f;
+            font-family: 'Inter', sans-serif;
+
         }
         svg {
             width: 100%;
@@ -20,6 +22,7 @@
             fill: #fff;
             stroke: steelblue;
             stroke-width: 3px;
+            filter: url(#outline); /* Add this line for the outline effect */
         }
 
         .node text {
@@ -46,6 +49,7 @@
         }
 </style>
     <script src="https://d3js.org/d3.v6.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
