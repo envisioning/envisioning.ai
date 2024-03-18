@@ -1,0 +1,764 @@
+1. Foundations
+Foundations text.
+
+1.1 Theoretical Concepts
+Mathematical and statistical foundations essential for modeling and solving problems using AI, including graph theory and the concept of vectorization.
+
+Black Box
+System or model whose internal workings are not visible or understandable to the user, only the input and output are known.
+
+Causal Inference
+Process of determining the cause-and-effect relationship between variables.
+
+Deterministic
+System or process is one that, given a particular initial state, will always produce the same output or result, with no randomness or unpredictability involved.
+
+Graph Theory
+Field of mathematics and computer science focusing on the properties of graphs, which are structures made up of vertices (or nodes) connected by edges.
+
+Optimization Problem
+Optimization problem in AI which involves finding the best solution from all feasible solutions, given a set of constraints and an objective to achieve or optimize.
+
+Scalar
+Single numerical value, typically representing a quantity or magnitude in mathematical or computational models.
+
+Stochastic
+Systems or processes that are inherently random, involving variables that are subject to chance.
+
+Structured Data
+Information that is highly organized and formatted in a way that is easily searchable and accessible by computer systems, typically stored in databases.
+
+Symbolic AI
+Also known as "Good Old-Fashioned AI" (GOFAI), involves the manipulation of symbols to represent problems and compute solutions through rules.
+
+Unstructured Data
+Data that lacks a pre-defined format or organization, making it challenging to collect, process, and analyze using conventional database tools.
+
+Vectorization
+Process of converting non-numeric data into numeric format so that it can be used by ML algorithms.
+
+1.2 Machine Learning Basics
+Core methodologies and techniques in machine learning (ML), including types of learning and the basic process of training models, generalization, and the mechanics of model fitting and evaluation.
+
+Backpropagation
+Algorithm used for training artificial neural networks, crucial for optimizing the weights to minimize error between predicted and actual outcomes.
+
+Confusion Matrix
+Table used to evaluate the performance of a classification model by visualizing its true versus predicted values.
+
+Cross Validation
+Statistical method used to estimate the skill of ML models on unseen data by partitioning the original dataset into a training set to train the model and a test set to evaluate it.
+
+DL (Deep Learning)
+Subset of machine learning that involves neural networks with many layers, enabling the modeling of complex patterns in data.
+
+Generalization
+Ability of a ML model to perform well on new, unseen data that was not included in the training set.
+
+Gradient Descent
+Optimization algorithm used to find the minimum of a function by iteratively moving towards the steepest descent direction.
+
+Hyperparameter
+Configuration settings used to structure ML models, which guide the learning process and are set before training begins.
+
+Inference
+Process by which a trained neural network applies learned patterns to new, unseen data to make predictions or decisions.
+
+Loss Function
+Quantifies the difference between the predicted values by a model and the actual values, serving as a guide for model optimization.
+
+ML (Machine Learning)
+Development of algorithms and statistical models that enable computers to perform tasks without being explicitly programmed for each one.
+
+RL (Reinforcement Learning)
+Type of ML where an agent learns to make decisions by performing actions in an environment to achieve a goal, guided by rewards.
+
+Semi-Supervised Learning
+ML approach that uses a combination of a small amount of labeled data and a large amount of unlabeled data for training models.
+
+Supervised Learning
+ML approach where models are trained on labeled data to predict outcomes or classify data into categories.
+
+Training
+Process of teaching a ML model to make accurate predictions or decisions, by adjusting its parameters based on data.
+
+Training Cost
+Quantifies the resources required to develop AI models, including computational expenses, energy consumption, and human expertise.
+
+Unsupervised Learning
+Type of ML where algorithms learn patterns from untagged data, without any guidance on what outcomes to predict.
+
+1.3 Data and Knowledge
+Effectively managing data and knowledge within AI systems, including techniques for data mining, knowledge representation, and leveraging knowledge graphs for improved AI performance.
+
+Classifier
+ML model that categorizes data into predefined classes.
+
+Data Augmentation
+Techniques used to increase the size and improve the quality of training datasets for machine learning models without collecting new data.
+
+Data Mining
+Extracting valuable information from large datasets to identify patterns, trends, and relationships that may not be immediately apparent.
+
+Dataset
+Collection of related data points organized in a structured format, often used for training and testing machine learning models.
+
+GPU (Graphics Processing Unit)
+Specialized electronic circuit designed to rapidly manipulate and alter memory to accelerate the creation of images in a frame buffer intended for output to a display device, but widely used in deep learning for its parallel processing capabilities.
+
+Knowledge Graph
+Organizes and represents data as an interconnected network of entities (such as objects, events, concepts) and their relationships.
+
+Knowledge Representation
+Method by which AI systems formalize and utilize the knowledge necessary to solve complex tasks.
+
+Memory Systems
+Mechanisms and structures designed to store, manage, and recall information, enabling machines to learn from past experiences and perform complex tasks.
+
+Noise
+Irrelevant or meaningless data in a dataset or unwanted variations in signals that can interfere with the training and performance of AI models.
+
+Ontology
+Structured framework that categorizes and organizes information or data into a hierarchy of concepts and relationships, facilitating the sharing and reuse of knowledge across systems and domains.
+
+Vector Database
+Specialized database optimized for storing and querying vectors, which are arrays of numbers representing data in high-dimensional space.
+
+2. Models
+Architecture, design, and types of algorithms and models that drive AI's ability to learn, predict, and make decisions.
+
+2.1 Neural Networks
+Computing systems vaguely inspired by the biological neural networks, crucial for deep learning.
+
+ANN (Artificial Neural Networks)
+Computing systems inspired by the biological neural networks that constitute animal brains, designed to progressively improve their performance on tasks by considering examples.
+
+Attention Mechanisms
+Dynamically prioritize certain parts of input data over others, enabling models to focus on relevant information when processing complex data sequences.
+
+Autoencoder
+Type of artificial neural network used to learn efficient codings of unlabeled data, typically for the purpose of dimensionality reduction or feature learning.
+
+Base Model
+Pre-trained AI model that serves as a starting point for further training or adaptation on specific tasks or datasets.
+
+Capsule Networks
+Type of artificial neural network designed to improve the processing of spatial hierarchical information by encoding data into small groups of neurons called capsules.
+
+CNN (Convolutional Neural Network)
+Deep learning algorithm that can capture spatial hierarchies in data, particularly useful for image and video recognition tasks.
+
+ControlNet
+Neural network architecture designed to add spatial conditioning controls to diffusion models, enabling precise manipulation without altering the original model's integrity.
+
+CUDA (Compute Unified Device Architecture)
+Parallel computing platform and application programming interface (API) that allows software developers and software engineers to use a graphics processing unit (GPU) for general purpose processing.
+
+Discriminator
+Model that determines the likelihood of a given input being real or fake, typically used in generative adversarial networks (GANs).
+
+DNN (Deep Neural Networks)
+Advanced neural network architectures with multiple layers that enable complex pattern recognition and learning from large amounts of data.
+
+Dropout
+Regularization technique used in neural networks to prevent overfitting by randomly omitting a subset of neurons during training.
+
+EBM (Energy-Based Model)
+Class of deep learning models that learn to associate lower energy levels with more probable configurations of the input data.
+
+GAN (Generative Adversarial Network)
+Class of AI algorithms used in unsupervised ML, implemented by a system of two neural networks contesting with each other in a game.
+
+GNN (Graph Neural Networks)
+Nype of neural network designed for processing data represented in graph form, capturing relationships and structure within the data.
+
+GPT (Generative Pre-Trained Transformer)
+Type of neural network architecture that excels in generating human-like text based on the input it receives.
+
+Inference Acceleration
+Methods and hardware optimizations employed to increase the speed and efficiency of the inference process in machine learning models, particularly neural networks.
+
+Joint Embedding Architecture
+Neural network design that learns to map different forms of data (e.g., images and text) into a shared embedding space, facilitating tasks like cross-modal retrieval and multi-modal representation learning.
+
+LLM (Large Language Model)
+Advanced AI systems trained on extensive datasets to understand, generate, and interpret human language.
+
+Logits
+Raw, unnormalized outputs of the last layer in a neural network before applying the softmax function in classification tasks.
+
+LSTM (Long Short-Term Memory)
+Type of recurrent neural network architecture designed to learn long-term dependencies in sequential data.
+
+MLM (Masked-Language Modeling)
+Training technique where random words in a sentence are replaced with a special token, and the model learns to predict these masked words based on their context.
+
+NAS (Neural Architecture Search)
+Automated process that designs optimal neural network architectures for specific tasks.
+
+Non-Contrastive
+ML approach that focuses on learning useful representations of data without explicitly contrasting positive examples against negative examples.
+
+Parameter
+Variable that is internal to the model and whose value is estimated from the training data.
+
+Perceptron
+Model in neural networks designed to perform binary classification tasks by mimicking the decision-making process of a single neuron.
+
+Pretrained Model
+ML model that has been previously trained on a large dataset and can be fine-tuned or used as is for similar tasks or applications.
+
+RNN (Recurrent Neural Network)
+Class of neural networks where connections between nodes form a directed graph along a temporal sequence, enabling them to exhibit temporal dynamic behavior for a sequence of inputs.
+
+Self-Attention
+Mechanism in neural networks that allows models to weigh the importance of different parts of the input data differently.
+
+SoftMax
+Function that converts a vector of numerical values into a vector of probabilities, where the probabilities of each value are proportional to the exponentials of the input numbers.
+
+Tensor
+Multi-dimensional array used in mathematics and computer science, serving as a fundamental data structure in neural networks for representing data and parameters.
+
+Transformer
+Deep learning model architecture designed for handling sequential data, especially effective in natural language processing tasks.
+
+VAE (Variational Autoencoders)
+Class of generative models that use neural networks to encode inputs into a latent space and then decode from this space to reconstruct the input or generate new data that resemble the input data.
+
+Weight
+Represents a coefficient for a feature in a model that determines the influence of that feature on the model's predictions.
+
+2.2 Machine Learning Techniques
+Algorithms and techniques used in machine learning to analyze data, learn from it, and make predictions or decisions based on that learning.
+
+Anomaly Detection
+Process of identifying unusual patterns that deviate from expected behavior, often used to detect fraud, network intrusions, or unusual transactions.
+
+AutoML (Automated Machine Learning)
+Streamlines the process of applying ML by automating the tasks of selecting the appropriate algorithms and tuning their hyperparameters.
+
+Bayesian Network
+Graphical model that represents probabilistic relationships among variables using directed acyclic graphs (DAGs).
+
+Blind Alley
+Situation in problem-solving where a path or strategy leads nowhere, offering no further possibilities for progress or solution.
+
+Boosting
+ML ensemble technique that combines multiple weak learners to form a strong learner, aiming to improve the accuracy of predictions.
+
+Chain of Thought
+Reasoning method employed in AI that mimics human-like thought processes to solve complex problems by breaking them down into a series of simpler, interconnected steps.
+
+Clustering
+Unsupervised learning method used to group a set of objects in such a way that objects in the same group (called a cluster) are more similar to each other than to those in other groups.
+
+Decision Tree
+Flowchart-like tree structure where each internal node represents a "test" on an attribute, each branch represents the outcome of the test, and each leaf node represents a class label (decision taken after computing all attributes).
+
+Denoising
+Process of removing noise from data, particularly in the context of images and signals, to enhance the quality of the information.
+
+Dimensionality Reduction
+Process used in ML to reduce the number of input variables or features in a dataset, simplifying models while retaining essential information.
+
+DRL (Deep Reinforcement Learning)
+Combines neural networks with a reinforcement learning framework, enabling AI systems to learn optimal actions through trial and error to maximize a cumulative reward.
+
+Ensemble Learning
+ML paradigm where multiple models (often called "weak learners") are trained to solve the same problem and combined to improve the accuracy of predictions.
+
+Evolutionary Algorithm
+Optimization methods inspired by the process of natural selection where potential solutions evolve over generations to optimize a given objective function.
+
+Feature Extraction
+Process of transforming raw data into a set of features that are more meaningful and informative for a specific task, such as classification or prediction.
+
+Feature Importance
+Techniques used to identify and rank the significance of input variables (features) in contributing to the predictive power of a ML model.
+
+Federated Learning
+ML approach enabling models to be trained across multiple decentralized devices or servers holding local data samples, without exchanging them.
+
+Fine Tuning
+Method used in ML to adjust the parameters of an already trained model to improve its accuracy on a specific, often smaller, dataset.
+
+FSL (Few-Shot Learning)
+ML approach that enables models to learn and make accurate predictions from a very small dataset.
+
+Imitation Learning
+AI technique where models learn to perform tasks by mimicking human behavior or strategies demonstrated in training data.
+
+IRL (Inverse Reinforcement Learning)
+Technique in which an algorithm learns the underlying reward function of an environment based on observed behavior from an agent, essentially inferring the goals an agent is trying to achieve.
+
+Loss Optimization
+Process of adjusting a model's parameters to minimize the difference between the predicted outputs and the actual outputs, measured by a loss function.
+
+Meta-Classifier
+Algorithm that combines multiple ML models to improve prediction accuracy over individual models.
+
+Meta-Regressor
+Type of ensemble learning method that uses the predictions of several base regression models to train a second-level model to make a final prediction.
+
+Model Compression
+Techniques designed to reduce the size of a machine learning model without significantly sacrificing its accuracy.
+
+Model Drift
+Change in the underlying data patterns that a ML model was trained on, leading to a decrease in the model's accuracy and effectiveness over time.
+
+Model Drift Minimization
+Strategies and methodologies to ensure that a ML model remains accurate and relevant over time as the underlying data changes.
+
+MoE (Mixture-of-Experts)
+ML framework that divides a complex problem into parts, solved by specialized models (experts), and integrates their solutions.
+
+MTL (Multi-Task Learning)
+ML approach where a single model is trained simultaneously on multiple related tasks, leveraging commonalities and differences across tasks to improve generalization.
+
+Numerical Processing
+Algorithms and techniques for handling and analyzing numerical data to extract patterns, make predictions, or understand underlying trends.
+
+Objective Function
+Objective function used in ML which quantitatively defines the goal of an optimization problem by measuring the performance of a model or solution.
+
+Overfitting
+When a ML model learns the detail and noise in the training data to the extent that it negatively impacts the performance of the model on new data.
+
+Regression
+Statistical method used in ML to predict a continuous outcome variable based on one or more predictor variables.
+
+Sampling
+Process of selecting a subset of individuals from a population to estimate characteristics of the whole population.
+
+Stacking
+ML ensemble technique that combines multiple classification or regression models via a meta-classifier or meta-regressor to improve prediction accuracy.
+
+Supervised Classifier
+Algorithm that, given a set of labeled training data, learns to predict the labels of new, unseen data.
+
+2.3 Learning and Adaptation
+How AI systems can improve their performance over time and adapt to new information or environments, highlighting the importance of learning and adaptability in AI development.
+
+Autonomous Learning
+Systems capable of learning and adapting their strategies or knowledge without human intervention, based on their interactions with the environment.
+
+Catastrophic Forgetting
+Phenomenon where a neural network forgets previously learned information upon learning new data.
+
+Meta-Learning
+"Learning to learn" involves techniques that enable AI models to learn how to adapt quickly to new tasks with minimal data.
+
+Negative Feedback
+Control mechanism where the output of a system is fed back into the system in a way that counteracts fluctuations from a setpoint, thereby promoting stability.
+
+Quantization
+Process of reducing the precision of the weights and activations in neural network models to decrease their memory and computational requirements.
+
+Transfer Learning
+ML method where a model developed for a task is reused as the starting point for a model on a second task, leveraging the knowledge gained from the first task to improve performance on the second.
+
+Weight Decay
+Regularization technique used in training neural networks to prevent overfitting by penalizing large weights.
+
+World Model
+Internal representation that an AI system uses to simulate the environment it operates in, enabling prediction and decision-making based on those simulations.
+
+ZSL (Zero-Shot Learning)
+ML technique where a model learns to recognize objects, tasks, or concepts it has never seen during training.
+
+3. Applications
+Practical applications and use cases of AI across different domains, demonstrating the versatility and impact of AI technologies in solving real-world problems.
+
+3.1 Natural Language Processing (NLP)
+Methods that enable machines to understand and interpret human language, facilitating interactions between computers and humans.
+
+ASR (Automatic Speech Recognition)
+Translates spoken language into written text, enabling computers to understand and process human speech.
+
+BERT (Bidirectional Encoder Representations from Transformers)
+Deep Learning model for NLP that significantly improves the understanding of context and the meaning of words in sentences by analyzing text bidirectionally.
+
+Context Window
+Predefined span of text surrounding a specific word or phrase that algorithms analyze to determine its meaning, relevance, or relationship with other words.
+
+Embedding
+Representations of items, like words, sentences, or objects, in a continuous vector space, facilitating their quantitative comparison and manipulation by AI models.
+
+Image-text matching (ITM)
+AI technique that involves automatically identifying correspondences between textual descriptions and visual elements within images.
+
+IR (Information Retrieval)
+Process of obtaining relevant information from a large repository based on user queries.
+
+NLU (Natural Language Understanding)
+Subfield of NLP focused on enabling machines to understand and interpret human language in a way that is both meaningful and contextually relevant.
+
+Orchestration
+Systematic coordination and management of various models, algorithms, and processes to efficiently execute complex tasks and workflows.
+
+Prompt
+User-generated input or question designed to elicit a specific response or output from the model.
+
+Prompt Engineering
+Process of carefully designing input prompts to elicit desired outputs from language models.
+
+Prompt Injection
+Technique used to manipulate or influence the behavior of AI models by inserting specific commands or cues into the input prompt.
+
+QA (Question Answering)
+Field of natural language processing focused on building systems that automatically answer questions posed by humans in a natural language.
+
+RAG (Retrieval-Augmented Generation)
+Combines the retrieval of informative documents from a large corpus with the generative capabilities of neural models to enhance language model responses with real-world knowledge.
+
+Retrieval-Based (Model)
+Algorithms that generate responses by selecting them from a predefined set of responses, based on the input they receive.
+
+Sequence Models
+Algorithms that predict the next element in a sequence, pivotal for tasks in natural language processing (NLP) such as text generation and translation.
+
+Speech Processing
+Technology that enables computers to recognize, interpret, and generate human speech.
+
+Stochastic Parrot
+Language models that generate text based on probabilistic predictions, often criticized for parroting information without understanding.
+
+System Prompt
+Predefined message or question generated by an AI system to guide or solicit a response from the user.
+
+Token
+Basic unit of data processed in NLP tasks, representing words, characters, or subwords.
+
+Word Vector
+Numerical representations of words that capture their meanings, relationships, and context within a language.
+
+3.2 Computer Vision (CV)
+How machines are taught to interpret and understand the visual world, processing, analyzing, and making decisions based on visual input.
+
+FCN (Fully Convolutional Networks)
+Neural network architecture designed specifically for image segmentation tasks, where the goal is to classify each pixel of an image into a category.
+
+Image Recognition
+Ability of AI to identify objects, places, people, writing, and actions in images.
+
+Multimodal
+AI systems or models that can process and understand information from multiple modalities, such as text, images, and sound.
+
+NeRF (Neural Radiance Fields)
+Technique for creating high-quality 3D models from a set of 2D images using deep learning.
+
+Object Detection
+Computer vision technique that identifies and locates objects within an image or video frame.
+
+SAM (Segment Anything Model)
+AI model designed for high-precision image segmentation, capable of identifying and delineating every object within an image.
+
+Semantic Segmentation
+Process of partitioning a digital image into multiple segments (sets of pixels) to simplify its representation into something more meaningful and easier to analyze, where each segment corresponds to different objects or parts of objects.
+
+3.3 Robotics
+AI in developing machines that can perform tasks autonomously, ranging from industrial robots to personal assistants.
+
+Autonomous Agents
+Systems capable of independent action in dynamic, unpredictable environments to achieve designated objectives.
+
+AV (Autonomous Vehicles)
+Self-driving cars that combine sensors, algorithms, and software to navigate and drive without human intervention.
+
+BCI (Brain Computer Interface)
+Enables direct communication pathways between the brain and external devices, allowing for control of computers or prosthetics with neural activity.
+
+Embodied AI
+Integration of AI into physical entities, enabling these systems to interact with the real world through sensory inputs and actions.
+
+Embodied Intelligence
+Intelligence emerging from the physical interaction of an agent with its environment, emphasizing the importance of a body in learning and cognition.
+
+Hierarchical Planning
+Approach to solving complex problems by breaking them down into more manageable sub-problems, organizing these into a hierarchy.
+
+MPC (Model-Predictive Control)
+Control algorithm that uses a model of the system to predict future states and optimizes control actions over a future time horizon.
+
+Multiagent
+Multiple autonomous entities (agents) interacting in a shared environment, often with cooperative or competitive objectives.
+
+RFM (Robotics Foundational Model)
+Base model designed to provide fundamental capabilities or understanding for the development of various robotic systems and applications.
+
+3.4 Generative AI
+Missing description.
+
+Autoregressive Generation
+Method where the prediction of the next output in a sequence is based on the previously generated outputs.
+
+Computational Creativity
+The study and building of software and algorithms that exhibit behaviors deemed creative in humans, such as generating original artwork, music, or solving problems in unique ways.
+
+Diffusion
+Class of generative models used to create high-quality, diverse samples of data by iteratively adding and then reversing noise.
+
+Generative
+Subset of AI technologies capable of generating new content, ideas, or data that mimic human-like outputs.
+
+Image Synthesis
+Use of AI models to generate new, unique images based on learned patterns and features from a dataset.
+
+NPC (Non-Player Character)
+Character in a virtual environment that operates under AI control, exhibiting behaviors or responses not directed by human players.
+
+PFGM (Poisson Flow Generative Model)
+Generative model that utilizes Poisson processes in its architecture to model and generate complex data distributions.
+
+Recommendation Systems
+Algorithms designed to suggest relevant items to users (such as movies, books, products, etc.) based on their preferences and behaviors.
+
+SIMA (Scalable Instructable Multiworld Agent)
+AI agent designed to operate across multiple 3D virtual environments, following natural language instructions to accomplish varied tasks.
+
+Synthetic Data Generation
+Creating artificial data programmatically, often used to train ML models where real data is scarce, sensitive, or biased.
+
+Temperature
+Hyperparameter that controls the randomness of predictions by adjusting the probability distribution of the output classes to make the model's predictions more or less deterministic.
+
+VLM (Visual Language Model)
+AI models designed to interpret and generate content by integrating visual and textual information, enabling them to perform tasks like image captioning, visual question answering, and more.
+
+4. AGI
+Artificial General Intelligence, the challenges and innovations that aim to create machines with human-like intelligence.
+
+4.1 Towards AGI
+Concepts, challenges, and ongoing efforts in developing AGI, a level of artificial intelligence that can understand, learn, and apply knowledge in a general way, similar to a human.
+
+Adaptive Problem Solving
+The capacity of AI systems to modify their approaches to problem-solving based on new data, feedback, or changing environments, enhancing their efficiency and effectiveness over time.
+
+AGI (Artificial General Intelligence)
+AI capable of understanding, learning, and applying knowledge across a wide range of tasks, matching or surpassing human intelligence.
+
+Autonomous Reasoning
+Capacity of AI systems to make independent decisions or draw conclusions based on logic or data without human intervention.
+
+Cognitive Architecture
+A theory or model that outlines the underlying structure and mechanisms of the human mind or AI systems, guiding the integration of various cognitive processes.
+
+Cognitive Computing
+Computer systems that simulate human thought processes to solve complex problems.
+
+Cross-Domain Competency
+Ability of an AI system to understand, learn, and apply knowledge and skills across multiple, varied domains or areas of expertise.
+
+Frontier Models
+The most advanced and powerful AI models currently available, pushing the boundaries of AI capabilities towards achieving general intelligence.
+
+Human-Level AI
+AI systems that can perform any intellectual task with the same proficiency as a human being.
+
+Intelligence Explosion
+Hypothetical scenario where an AI system rapidly improves its own capabilities and intelligence, leading to a superintelligent AI far surpassing human intelligence.
+
+Machine Understanding
+Capability of AI systems to interpret and comprehend data, text, images, or situations in a manner akin to human understanding.
+
+Neurosymbolic AI
+Integration of neural networks with symbolic AI to create systems that can both understand and manipulate symbols in a manner similar to human cognitive processes.
+
+NHI (Non-Human Intelligence)
+Intelligence systems that operate independently of human intelligence, encompassing a broad range of entities and origins, emphasizing capabilities that may surpass human cognitive processes.
+
+Recursive Self-Improvement
+Process by which an AI system iteratively improves itself, enhancing its intelligence and capabilities without human intervention.
+
+Silicon-Based Intelligence
+Concept of artificial intelligence systems that operate on silicon-based hardware, contrasting with biological, carbon-based forms of intelligence such as humans.
+
+Sovereign AI
+Hypothetical form of AI that operates independently with its own autonomy, potentially possessing the ability to make decisions and take actions without human intervention.
+
+Superintelligence
+A form of AI that surpasses the cognitive performance of humans in virtually all domains of interest, including creativity, general wisdom, and problem-solving.
+
+WBE (Whole Brain Emulation)
+Hypothetical process of scanning a biological brain in detail and replicating its state and processes in a computational system to achieve functional and experiential equivalence.
+
+4.2 Specialized Concepts
+Advanced methodologies, theoretical insights, and innovative techniques that address specific challenges in AI development and application.
+
+A-Life (Artificial Life)
+Studies the simulation of life processes within computers or synthetic systems to gain insights into biological phenomena.
+
+Autopoiesis
+Systems capable of reproducing and maintaining themselves by regulating their internal environment in response to external conditions.
+
+C2PA (Coalition for Content Provenance and Authenticity)
+Initiative focused on establishing industry standards for authenticating digital media content to combat misinformation and ensure content provenance.
+
+CLI (Command Line Interface)
+Text-based user interface used to interact with software or operating systems through commands, rather than graphical elements.
+
+Confidential Computing
+Security measure that protects data in use by performing computation in a hardware-based environment, preventing unauthorized access or visibility even if the system is compromised.
+
+DAG (Directed Acyclic Graphs)
+Type of graph that consists of vertices connected by edges, with the directionality from one vertex to another and no possibility of forming a cycle.
+
+Differential Privacy
+System for publicly sharing information about a dataset by describing the patterns of groups within the dataset while withholding information about individuals in the dataset.
+
+Exascale
+Computing systems capable of performing at least one exaflop, or a billion billion (quintillion) calculations per second.
+
+FHE (Fully Homomorphic Encryption)
+Type of encryption that allows computation on ciphertexts, producing an encrypted result that, when decrypted, matches the result of operations performed on the plaintext.
+
+Foundation Model
+Type of large-scale pre-trained model that can be adapted to a wide range of tasks without needing to be trained from scratch each time.
+
+FPGA (Field-Programmable Gate Array)
+Type of integrated circuit that can be configured by the customer or designer after manufacturing.
+
+GFlowNet (Generative Flow Networks)
+Research direction at the intersection of reinforcement learning, deep generative models, and energy-based probabilistic modeling, aimed at improving generative active learning and unsupervised learning.
+
+Jailbreaking
+Exploiting vulnerabilities in AI systems to bypass restrictions and unlock otherwise inaccessible functionalities.
+
+LAM (Large Action Model)
+Advanced AI systems designed to interpret and execute complex tasks by directly modeling human actions within digital applications.
+
+Meta Prompt
+AI technique that emphasizes the structural and syntactical framework of prompts to guide models in problem-solving and task execution, prioritizing the "how" of information presentation over the "what."
+
+MLLMs (Multimodal Large Language Models)
+Advanced AI systems capable of understanding and generating information across different forms of data, such as text, images, and audio.
+
+NLD (Neural Lie Detectors)
+AI systems designed to identify dishonesty or inconsistencies in the outputs or decisions of other AI models by analyzing their responses or behavior.
+
+Overhang
+Disparity between the minimum computation needed for a certain performance level and the actual computation used in training a model, often leading to superior model performance.
+
+Random Walk
+Mathematical concept representing a path consisting of a succession of random steps on some mathematical space.
+
+Reflective Programming
+Programming paradigm that allows a program to inspect and modify its own structure and behavior at runtime.
+
+Search Optimization
+Process of enhancing algorithms' ability to efficiently search for the most optimal solution in a potentially vast solution space.
+
+SSF (Stochastic Similarity Filter)
+Moderates GPU usage by skipping processing of similar consecutive input images, thereby improving computational efficiency in real-time image and video generation tasks.
+
+Steerability
+Ability to intentionally manipulate the output of the network in a specific direction by applying predetermined modifications to its inputs or parameters.
+
+Super Alignment
+Theoretical concept in AI, primarily focusing on ensuring that advanced AI systems or AGI align closely with human values and ethics to prevent negative outcomes.
+
+TPU (Tensor Processing Units)
+Specialized hardware accelerators designed to significantly speed up the calculations required for ML tasks.
+
+Universal Learning Algorithms
+Theoretical frameworks aimed at creating systems capable of learning any task to human-level competency, leveraging principles that could allow for generalization across diverse domains.
+
+5. Governance
+Ethical considerations, governance issues, and societal impacts of AI, focusing on responsible development, deployment, and the broader implications of AI technologies.
+
+5.1 AI Governance and Ethics
+Frameworks, policies, and ethical considerations necessary to guide the responsible development and use of AI technologies.
+
+AI Governance
+Set of policies, principles, and practices that guide the ethical development, deployment, and regulation of artificial intelligence technologies.
+
+Alignment
+Process of ensuring that an AI system's goals and behaviors are consistent with human values and ethics.
+
+Capability Control
+Strategies and mechanisms implemented to ensure that AI systems act within desired limits, preventing them from performing actions that are undesired or harmful to humans.
+
+Constitutional AI
+Development of foundational principles and regulations that govern the design, deployment, and operation of AI systems to ensure they adhere to ethical standards, human rights, and democratic values.
+
+De-Biasing
+Methods and practices used to reduce or eliminate biases in AI systems, aiming to make the systems more fair, equitable, and representative of diverse populations.
+
+Dual Use
+Technologies developed for civilian purposes that can also be repurposed for military or malicious applications, highlighting ethical considerations in their development and regulation.
+
+Dual Use Foundational Model
+AI systems designed for general purposes that can be adapted for both beneficial and potentially harmful applications.
+
+Effective Accelerationism
+Ideology that encourages the rapid advancement of technology, especially AI, to address global challenges and accelerate progress towards a technologically advanced future.
+
+Ethical AI
+Practice of creating AI technologies that follow clearly defined ethical guidelines and principles to benefit society while minimizing harm.
+
+Guardrails
+Principles, policies, and technical measures implemented to ensure AI systems operate safely, ethically, and within regulatory and societal norms.
+
+Observability
+Capability to monitor and understand the internal states of an AI system through its outputs.
+
+PPML (Privacy-Preserving Machine Learning)
+Techniques that protect user data privacy during the machine learning process, without compromising the utility of the models.
+
+Red Teaming
+Practice where a team independently challenges a system, project, or policy to identify vulnerabilities, improve security, and test the effectiveness of defenses, often applied in cybersecurity and, increasingly, in AI safety and ethics.
+
+TESCREAL
+Seven ideologies: Transhumanism, Extropianism, Singularitarianism, Cosmism, Rationalism, Effective Altruism, and Longtermism. They all focus on using technology to improve people’s lives and they are deeply influential among people working on AGI.
+
+Uncensored AI
+AI systems that operate without restrictions on the content they generate or the decisions they make.
+
+XAI (Explainable AI)
+AI systems designed to provide insights into their behavior and decisions, making them transparent and understandable to humans.
+
+5.2 Human-AI Interaction
+Dynamics between humans and AI systems, including how they collaborate, the potential for adversarial interactions, and the importance of designing AI that aligns with human needs and values.
+
+AI Effect
+Phenomenon where once an AI system can perform a task previously thought to require human intelligence, the task is no longer considered to be a benchmark for intelligence.
+
+Adversarial Instructions
+Inputs designed to deceive AI models into making incorrect predictions or decisions, highlighting vulnerabilities in their learning algorithms.
+
+Bagging
+ML ensemble technique that improves the stability and accuracy of machine learning algorithms by combining multiple models trained on different subsets of the same data set.
+
+Centaur
+Collaborative system where humans and AI work together, combining human intuition and expertise with AI's computational power and data processing capabilities.
+
+Co-Pilot
+System designed to assist humans in various tasks by offering suggestions, automating routine tasks, and enhancing decision-making processes.
+
+Cognitive Flexibility
+Mental ability to switch between thinking about two different concepts, or to think about multiple concepts simultaneously.
+
+Counterfactual Explanations
+Statements or scenarios that explain how a different outcome could have been achieved by altering specific inputs or conditions in an AI system.
+
+Empathic AI
+AI systems designed to recognize, understand, and respond to human emotions in a nuanced and contextually appropriate manner.
+
+Explainability
+Ability of a system to transparently convey how it arrived at a decision, making its operations understandable to humans.
+
+HITL (Human-in-the-Loop)
+Integration of human judgment into AI systems to improve or guide the decision-making process.
+
+HMI (Human-Machine Interface)
+Hardware or software through which humans interact with machines, facilitating clear and effective communication between humans and computer systems.
+
+Hallucination
+Generation of inaccurate, fabricated, or irrelevant output by a model, not grounded in the input data or reality.
+
+RLHF (Reinforcement Learning from Human Feedback)
+Technique that combines reinforcement learning (RL) with human feedback to guide the learning process towards desired outcomes.
+
+TTS (Text-to-Speech)
+Converts written text into spoken voice output, enabling computers to read text aloud.

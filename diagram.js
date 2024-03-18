@@ -85,6 +85,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 if (!d.chapter) return fallbackColors[d.level];
 
                 const colors = {
+                    // https://colorhunt.co
+                    
                     1: { // Chapter 1 
                         2: "#824D74", // Level 2
                         3: "#BE7B72", // Level 3
