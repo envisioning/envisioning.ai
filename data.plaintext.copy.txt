@@ -1,9 +1,3 @@
-1. Foundations
-Foundations of AI.
-
-1.1 Theoretical Concepts
-Mathematical and statistical foundations essential for modeling and solving problems using AI, including graph theory and the concept of vectorization.
-
 Black Box
 System or model whose internal workings are not visible or understandable to the user, only the input and output are known.
 
@@ -36,9 +30,6 @@ Data that lacks a pre-defined format or organization, making it challenging to c
 
 Vectorization
 Process of converting non-numeric data into numeric format so that it can be used by ML algorithms.
-
-1.2 Machine Learning Basics
-Core methodologies and techniques in machine learning (ML), including types of learning and the basic process of training models, generalization, and the mechanics of model fitting and evaluation.
 
 Backpropagation
 Algorithm used for training artificial neural networks, crucial for optimizing the weights to minimize error between predicted and actual outcomes.
@@ -88,9 +79,6 @@ Quantifies the resources required to develop AI models, including computational 
 Unsupervised Learning
 Type of ML where algorithms learn patterns from untagged data, without any guidance on what outcomes to predict.
 
-1.3 Data and Knowledge
-Effectively managing data and knowledge within AI systems, including techniques for data mining, knowledge representation, and leveraging knowledge graphs for improved AI performance.
-
 Classifier
 ML model that categorizes data into predefined classes.
 
@@ -123,12 +111,6 @@ Structured framework that categorizes and organizes information or data into a h
 
 Vector Database
 Specialized database optimized for storing and querying vectors, which are arrays of numbers representing data in high-dimensional space.
-
-2. Models
-Architecture, design, and types of algorithms and models that drive AI's ability to learn, predict, and make decisions.
-
-2.1 Neural Networks
-Computing systems vaguely inspired by the biological neural networks, crucial for deep learning.
 
 ANN (Artificial Neural Networks)
 Computing systems inspired by the biological neural networks that constitute animal brains, designed to progressively improve their performance on tasks by considering examples.
@@ -228,9 +210,6 @@ Class of generative models that use neural networks to encode inputs into a late
 
 Weight
 Represents a coefficient for a feature in a model that determines the influence of that feature on the model's predictions.
-
-2.2 Machine Learning Techniques
-Algorithms and techniques used in machine learning to analyze data, learn from it, and make predictions or decisions based on that learning.
 
 Anomaly Detection
 Process of identifying unusual patterns that deviate from expected behavior, often used to detect fraud, network intrusions, or unusual transactions.
@@ -337,9 +316,6 @@ ML ensemble technique that combines multiple classification or regression models
 Supervised Classifier
 Algorithm that, given a set of labeled training data, learns to predict the labels of new, unseen data.
 
-2.3 Learning and Adaptation
-How AI systems can improve their performance over time and adapt to new information or environments, highlighting the importance of learning and adaptability in AI development.
-
 Autonomous Learning
 Systems capable of learning and adapting their strategies or knowledge without human intervention, based on their interactions with the environment.
 
@@ -366,12 +342,6 @@ Internal representation that an AI system uses to simulate the environment it op
 
 ZSL (Zero-Shot Learning)
 ML technique where a model learns to recognize objects, tasks, or concepts it has never seen during training.
-
-3. Applications
-Practical applications and use cases of AI across different domains, demonstrating the versatility and impact of AI technologies in solving real-world problems.
-
-3.1 Natural Language Processing (NLP)
-Methods that enable machines to understand and interpret human language, facilitating interactions between computers and humans.
 
 ASR (Automatic Speech Recognition)
 Translates spoken language into written text, enabling computers to understand and process human speech.
@@ -433,9 +403,6 @@ Basic unit of data processed in NLP tasks, representing words, characters, or su
 Word Vector
 Numerical representations of words that capture their meanings, relationships, and context within a language.
 
-3.2 Computer Vision (CV)
-How machines are taught to interpret and understand the visual world, processing, analyzing, and making decisions based on visual input.
-
 FCN (Fully Convolutional Networks)
 Neural network architecture designed specifically for image segmentation tasks, where the goal is to classify each pixel of an image into a category.
 
@@ -456,9 +423,6 @@ AI model designed for high-precision image segmentation, capable of identifying 
 
 Semantic Segmentation
 Process of partitioning a digital image into multiple segments (sets of pixels) to simplify its representation into something more meaningful and easier to analyze, where each segment corresponds to different objects or parts of objects.
-
-3.3 Robotics
-AI in developing machines that can perform tasks autonomously, ranging from industrial robots to personal assistants.
 
 Autonomous Agents
 Systems capable of independent action in dynamic, unpredictable environments to achieve designated objectives.
@@ -486,9 +450,6 @@ Multiple autonomous entities (agents) interacting in a shared environment, often
 
 RFM (Robotics Foundational Model)
 Base model designed to provide fundamental capabilities or understanding for the development of various robotic systems and applications.
-
-3.4 Generative AI
-Missing description.
 
 Autoregressive Generation
 Method where the prediction of the next output in a sequence is based on the previously generated outputs.
@@ -525,12 +486,6 @@ Hyperparameter that controls the randomness of predictions by adjusting the prob
 
 VLM (Visual Language Model)
 AI models designed to interpret and generate content by integrating visual and textual information, enabling them to perform tasks like image captioning, visual question answering, and more.
-
-4. AGI
-Artificial General Intelligence, the challenges and innovations that aim to create machines with human-like intelligence.
-
-4.1 Towards AGI
-Concepts, challenges, and ongoing efforts in developing AGI, a level of artificial intelligence that can understand, learn, and apply knowledge in a general way, similar to a human.
 
 Adaptive Problem Solving
 The capacity of AI systems to modify their approaches to problem-solving based on new data, feedback, or changing environments, enhancing their efficiency and effectiveness over time.
@@ -582,9 +537,6 @@ A form of AI that surpasses the cognitive performance of humans in virtually all
 
 WBE (Whole Brain Emulation)
 Hypothetical process of scanning a biological brain in detail and replicating its state and processes in a computational system to achieve functional and experiential equivalence.
-
-4.2 Specialized Concepts
-Advanced methodologies, theoretical insights, and innovative techniques that address specific challenges in AI development and application.
 
 A-Life (Artificial Life)
 Studies the simulation of life processes within computers or synthetic systems to gain insights into biological phenomena.
@@ -664,12 +616,6 @@ Specialized hardware accelerators designed to significantly speed up the calcula
 Universal Learning Algorithms
 Theoretical frameworks aimed at creating systems capable of learning any task to human-level competency, leveraging principles that could allow for generalization across diverse domains.
 
-5. Governance
-Ethical considerations, governance issues, and societal impacts of AI, focusing on responsible development, deployment, and the broader implications of AI technologies.
-
-5.1 AI Governance and Ethics
-Frameworks, policies, and ethical considerations necessary to guide the responsible development and use of AI technologies.
-
 AI Governance
 Set of policies, principles, and practices that guide the ethical development, deployment, and regulation of artificial intelligence technologies.
 
@@ -717,9 +663,6 @@ AI systems that operate without restrictions on the content they generate or the
 
 XAI (Explainable AI)
 AI systems designed to provide insights into their behavior and decisions, making them transparent and understandable to humans.
-
-5.2 Human-AI Interaction
-Dynamics between humans and AI systems, including how they collaborate, the potential for adversarial interactions, and the importance of designing AI that aligns with human needs and values.
 
 AI Effect
 Phenomenon where once an AI system can perform a task previously thought to require human intelligence, the task is no longer considered to be a benchmark for intelligence.
