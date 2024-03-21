@@ -1,0 +1,26 @@
+1. Foundational Concepts
+1.1 Machine Learning (ML)
+1.2 Neural Networks
+1.3 Probabilistic Models
+1.4 Optimization and Learning
+2. Advanced AI Techniques
+2.1 Generative Models
+2.2 Language and Speech
+2.3 Computer Vision
+2.4 Reinforcement Learning
+3. Data and Compute
+3.1 Data
+3.2 Compute
+4. AI Systems and Applications
+4.1 AI Systems
+4.2 AI Applications
+5. AI Safety and Robustness
+5.1 AI Safety
+5.2 Robustness and Reliability
+6. Artificial General Intelligence (AGI)
+6.1 AGI Concepts
+6.2 AGI Approaches
+7. AI Ethics and Governance
+7.1 AI Ethics
+7.2 AI Governance
+

@@ -1,0 +1,727 @@
+0. Welcome
+Welcome to Envisioning.AI
+
+1. Foundational Concepts
+Theories and methods underpinning AI development.
+
+1.1 Machine Learning (ML)
+Algorithms that enable computers to learn from and make predictions or decisions based on data.
+
+## [[Supervised Learning]]
+![[Supervised Learning]]
+
+## [[Unsupervised Learning]]
+![[Unsupervised Learning]]
+
+## [[Semi-Supervised Learning]]
+![[Semi-Supervised Learning]]
+
+## [[Reinforcement Learning (RL)]]
+![[Reinforcement Learning (RL)]]
+
+## [[Transfer Learning]]
+![[Transfer Learning]]
+
+## [[Meta-Learning]]
+![[Meta-Learning]]
+
+## [[Multi-Task Learning (MTL)]]
+![[Multi-Task Learning (MTL)]]
+
+## [[Few-Shot Learning (FSL)]]
+![[Few-Shot Learning (FSL)]]
+
+## [[Zero-Shot Learning (ZSL)]]
+![[Zero-Shot Learning (ZSL)]]
+
+## [[Ensemble Learning]]
+![[Ensemble Learning]]
+
+## [[Imitation Learning]]
+![[Imitation Learning]]
+
+1.2 Neural Networks
+Computing systems inspired by biological neural networks, foundational for deep learning.
+
+## [[Artificial Neural Networks (ANN)]]
+![[Artificial Neural Networks (ANN)]]
+
+## [[Deep Learning (DL)]]
+![[Deep Learning (DL)]]
+
+## [[Deep Neural Networks (DNN)]]
+![[Deep Neural Networks (DNN)]]
+
+## [[Convolutional Neural Network (CNN)]]
+![[Convolutional Neural Network (CNN)]]
+
+## [[Recurrent Neural Network (RNN)]]
+![[Recurrent Neural Network (RNN)]]
+
+## [[Long Short-Term Memory (LSTM)]]
+![[Long Short-Term Memory (LSTM)]]
+
+## [[Fully Convolutional Networks (FCN)]]
+![[Fully Convolutional Networks (FCN)]]
+
+## [[Capsule Networks]]
+![[Capsule Networks]]
+
+## [[Graph Neural Networks (GNN)]]
+![[Graph Neural Networks (GNN)]]
+
+## [[Neural Architecture Search (NAS)]]
+![[Neural Architecture Search (NAS)]]
+
+1.3 Probabilistic Models
+Frameworks that incorporate uncertainty by modeling systems and phenomena as probabilistic processes.
+
+## [[Bayesian Network]]
+![[Bayesian Network]]
+
+## [[Variational Autoencoders (VAE)]]
+![[Variational Autoencoders (VAE)]]
+
+## [[Energy-Based Model (EBM)]]
+![[Energy-Based Model (EBM)]]
+
+## [[Generative Flow Networks (GFlowNet)]]
+![[Generative Flow Networks (GFlowNet)]]
+
+## [[Poisson Flow Generative Model (PFGM)]]
+![[Poisson Flow Generative Model (PFGM)]]
+
+## [[Mixture-of-Experts (MoE)]]
+![[Mixture-of-Experts (MoE)]]
+
+1.4 Optimization and Learning
+Techniques to find the best solution from a set of available options, central to machine learning.
+
+## [[Gradient Descent]]
+![[Gradient Descent]]
+
+## [[Backpropagation]]
+![[Backpropagation]]
+
+## [[Loss Function]]
+![[Loss Function]]
+
+## [[Objective Function]]
+![[Objective Function]]
+
+## [[Hyperparameter]]
+![[Hyperparameter]]
+
+## [[Weight]]
+![[Weight]]
+
+## [[Weight Decay]]
+![[Weight Decay]]
+
+## [[Dropout]]
+![[Dropout]]
+
+## [[Overfitting]]
+![[Overfitting]]
+
+## [[Cross Validation]]
+![[Cross Validation]]
+
+## [[AutoML (Automated Machine Learning)]]
+![[AutoML (Automated Machine Learning)]]
+
+## [[Loss Optimization]]
+![[Loss Optimization]]
+
+2. Advanced AI Techniques
+Sophisticated methodologies extending foundational AI concepts to address complex problems.
+
+2.1 Generative Models
+Algorithms that learn to generate new data samples similar to the training data.
+
+## [[Generative Adversarial Network (GAN)]]
+![[Generative Adversarial Network (GAN)]]
+
+## [[Generative Pre-Trained Transformer (GPT)]]
+![[Generative Pre-Trained Transformer (GPT)]]
+
+## [[Variational Autoencoders (VAE)]]
+![[Variational Autoencoders (VAE)]]
+
+## [[Autoregressive Generation]]
+![[Autoregressive Generation]]
+
+## [[Diffusion]]
+![[Diffusion]]
+
+## [[Neural Radiance Fields (NeRF)]]
+![[Neural Radiance Fields (NeRF)]]
+
+## [[Discriminative AI]]
+![[Discriminative AI]]
+
+## [[Discriminator]]
+![[Discriminator]]
+
+## [[Denoising]]
+![[Denoising]]
+
+2.2 Language and Speech
+Technologies that process and understand human language and speech.
+
+## [[Natural Language Understanding (NLU)]]
+![[Natural Language Understanding (NLU)]]
+
+## [[Large Language Model (LLM)]]
+![[Large Language Model (LLM)]]
+
+## [[Bidirectional Encoder Representations from Transformers (BERT)]]
+![[Bidirectional Encoder Representations from Transformers (BERT)]]
+
+## [[Automatic Speech Recognition (ASR)]]
+![[Automatic Speech Recognition (ASR)]]
+
+## [[Text-to-Speech (TTS)]]
+![[Text-to-Speech (TTS)]]
+
+## [[Transformer]]
+![[Transformer]]
+
+## [[Attention Mechanisms]]
+![[Attention Mechanisms]]
+
+## [[Word Vector]]
+![[Word Vector]]
+
+## [[Token]]
+![[Token]]
+
+## [[Prompt Engineering]]
+![[Prompt Engineering]]
+
+## [[Masked-Language Modeling (MLM)]]
+![[Masked-Language Modeling (MLM)]]
+
+## [[Meta Prompt]]
+![[Meta Prompt]]
+
+## [[Multimodal Large Language Models (MLLMs)]]
+![[Multimodal Large Language Models (MLLMs)]]
+
+2.3 Computer Vision
+Methods that enable machines to interpret and understand the visual world.
+
+## [[Image Recognition]]
+![[Image Recognition]]
+
+## [[Object Detection]]
+![[Object Detection]]
+
+## [[Semantic Segmentation]]
+![[Semantic Segmentation]]
+
+## [[Image Synthesis]]
+![[Image Synthesis]]
+
+## [[Visual Language Model (VLM)]]
+![[Visual Language Model (VLM)]]
+
+## [[Visual Question Answering (VQA)]]
+![[Visual Question Answering (VQA)]]
+
+## [[Segment Anything Model (SAM)]]
+![[Segment Anything Model (SAM)]]
+
+## [[Image-text matching (ITM)]]
+![[Image-text matching (ITM)]]
+
+## [[ControlNet]]
+![[ControlNet]]
+
+2.4 Reinforcement Learning
+Learning paradigm focused on making sequences of decisions by interacting with an environment.
+
+## [[Deep Reinforcement Learning (DRL)]]
+![[Deep Reinforcement Learning (DRL)]]
+
+## [[Inverse Reinforcement Learning (IRL)]]
+![[Inverse Reinforcement Learning (IRL)]]
+
+## [[Model-Predictive Control (MPC)]]
+![[Model-Predictive Control (MPC)]]
+
+## [[Multiagent]]
+![[Multiagent]]
+
+## [[Adaptive Problem Solving]]
+![[Adaptive Problem Solving]]
+
+## [[Autonomous Agents]]
+![[Autonomous Agents]]
+
+## [[Non-Player Character (NPC)]]
+![[Non-Player Character (NPC)]]
+
+## [[Hierarchical Planning]]
+![[Hierarchical Planning]]
+
+3. Data and Compute
+Essential resources and infrastructure for training and deploying AI systems.
+
+3.1 Data
+Collection, processing, and management of datasets for training AI models.
+
+## [[Dataset]]
+![[Dataset]]
+
+## [[Data Augmentation]]
+![[Data Augmentation]]
+
+## [[Synthetic Data Generation]]
+![[Synthetic Data Generation]]
+
+## [[Structured Data]]
+![[Structured Data]]
+
+## [[Unstructured Data]]
+![[Unstructured Data]]
+
+## [[Data Mining]]
+![[Data Mining]]
+
+## [[Anomaly Detection]]
+![[Anomaly Detection]]
+
+## [[Dimensionality Reduction]]
+![[Dimensionality Reduction]]
+
+## [[Feature Extraction]]
+![[Feature Extraction]]
+
+## [[Vectorization]]
+![[Vectorization]]
+
+## [[Feature Importance]]
+![[Feature Importance]]
+
+## [[Embedding]]
+![[Embedding]]
+
+## [[Noise]]
+![[Noise]]
+
+## [[GIGO (Garbage In, Garbage Out)]]
+![[GIGO (Garbage In, Garbage Out)]]
+
+3.2 Compute
+Computational power and architectures required to support AI model development and deployment.
+
+## [[GPU (Graphics Processing Unit)]]
+![[GPU (Graphics Processing Unit)]]
+
+## [[TPU (Tensor Processing Units)]]
+![[TPU (Tensor Processing Units)]]
+
+## [[FPGA (Field-Programmable Gate Array)]]
+![[FPGA (Field-Programmable Gate Array)]]
+
+## [[CUDA (Compute Unified Device Architecture)]]
+![[CUDA (Compute Unified Device Architecture)]]
+
+## [[Exascale]]
+![[Exascale]]
+
+## [[Inference Acceleration]]
+![[Inference Acceleration]]
+
+## [[Model Compression]]
+![[Model Compression]]
+
+## [[Quantization]]
+![[Quantization]]
+
+## [[Tensor]]
+![[Tensor]]
+
+## [[Scalar]]
+![[Scalar]]
+
+4. AI Systems and Applications
+Practical implementation and integration of AI technologies in various domains.
+
+4.1 AI Systems
+Platforms and frameworks that enable the deployment of AI solutions.
+
+## [[Expert System]]
+![[Expert System]]
+
+## [[Recommendation Systems]]
+![[Recommendation Systems]]
+
+## [[Information Retrieval (IR)]]
+![[Information Retrieval (IR)]]
+
+## [[Question Answering (QA)]]
+![[Question Answering (QA)]]
+
+## [[Retrieval-Based (Model)]]
+![[Retrieval-Based (Model)]]
+
+## [[Retrieval-Augmented Generation (RAG)]]
+![[Retrieval-Augmented Generation (RAG)]]
+
+## [[Multimodal]]
+![[Multimodal]]
+
+## [[Neurosymbolic AI]]
+![[Neurosymbolic AI]]
+
+## [[Symbolic AI]]
+![[Symbolic AI]]
+
+## [[Cognitive Architecture]]
+![[Cognitive Architecture]]
+
+## [[Memory Systems]]
+![[Memory Systems]]
+
+## [[Knowledge Graph]]
+![[Knowledge Graph]]
+
+## [[Knowledge Representation]]
+![[Knowledge Representation]]
+
+## [[Cognitive Computing]]
+![[Cognitive Computing]]
+
+## [[Decision Tree]]
+![[Decision Tree]]
+
+## [[Classifier]]
+![[Classifier]]
+
+## [[Clustering]]
+![[Clustering]]
+
+## [[Meta-Classifier]]
+![[Meta-Classifier]]
+
+## [[Meta-Regressor]]
+![[Meta-Regressor]]
+
+## [[DAG (Directed Acyclic Graphs)]]
+![[DAG (Directed Acyclic Graphs)]]
+
+## [[Graph Theory]]
+![[Graph Theory]]
+
+4.2 AI Applications
+Technologies to solve specific problems or enhance functionalities in various sectors.
+
+## [[Autonomous Vehicles (AV)]]
+![[Autonomous Vehicles (AV)]]
+
+## [[Robotics Foundational Model (RFM)]]
+![[Robotics Foundational Model (RFM)]]
+
+## [[Brain Computer Interface (BCI)]]
+![[Brain Computer Interface (BCI)]]
+
+## [[Human-Machine Interface (HMI)]]
+![[Human-Machine Interface (HMI)]]
+
+## [[Command Line Interface (CLI)]]
+![[Command Line Interface (CLI)]]
+
+## [[Co-Pilot]]
+![[Co-Pilot]]
+
+## [[Non-Human Intelligence (NHI)]]
+![[Non-Human Intelligence (NHI)]]
+
+## [[Whole Brain Emulation (WBE)]]
+![[Whole Brain Emulation (WBE)]]
+
+## [[Artificial Life (A-Life)]]
+![[Artificial Life (A-Life)]]
+
+## [[Silicon-Based Intelligence]]
+![[Silicon-Based Intelligence]]
+
+## [[Large Action Model (LAM)]]
+![[Large Action Model (LAM)]]
+
+## [[Large Nature Model (LMN)]]
+![[Large Nature Model (LMN)]]
+
+5. AI Safety and Robustness
+Strategies and methodologies to ensure AI systems operate safely and reliably.
+
+5.1 AI Safety
+Measures to prevent unintended consequences and ensure AI systems do no harm.
+
+## [[Alignment]]
+![[Alignment]]
+
+## [[Safety Net]]
+![[Safety Net]]
+
+## [[Capability Control]]
+![[Capability Control]]
+
+## [[Adversarial Instructions]]
+![[Adversarial Instructions]]
+
+## [[Prompt Injection]]
+![[Prompt Injection]]
+
+## [[Jailbreaking]]
+![[Jailbreaking]]
+
+## [[Red Teaming]]
+![[Red Teaming]]
+
+## [[Effective Accelerationism]]
+![[Effective Accelerationism]]
+
+## [[Intelligence Explosion]]
+![[Intelligence Explosion]]
+
+## [[Recursive Self-Improvement]]
+![[Recursive Self-Improvement]]
+
+## [[Sovereign AI]]
+![[Sovereign AI]]
+
+## [[Uncensored AI]]
+![[Uncensored AI]]
+
+## [[AI Effect]]
+![[AI Effect]]
+
+5.2 Robustness and Reliability
+Ensuring AI systems perform reliably under a wide range of conditions and resist manipulation.
+
+## [[Explainability (XAI)]]
+![[Explainability (XAI)]]
+
+## [[Interpretability]]
+![[Interpretability]]
+
+## [[Counterfactual Explanations]]
+![[Counterfactual Explanations]]
+
+## [[Observability]]
+![[Observability]]
+
+## [[Model Drift]]
+![[Model Drift]]
+
+## [[Model Drift Minimization]]
+![[Model Drift Minimization]]
+
+## [[Catastrophic Forgetting]]
+![[Catastrophic Forgetting]]
+
+## [[Generalization]]
+![[Generalization]]
+
+## [[Hallucination]]
+![[Hallucination]]
+
+## [[Stochastic Parrot]]
+![[Stochastic Parrot]]
+
+## [[Neural Lie Detectors (NLD)]]
+![[Neural Lie Detectors (NLD)]]
+
+## [[Confidential Computing]]
+![[Confidential Computing]]
+
+## [[Differential Privacy]]
+![[Differential Privacy]]
+
+## [[Privacy-Preserving Machine Learning (PPML)]]
+![[Privacy-Preserving Machine Learning (PPML)]]
+
+## [[Federated Learning]]
+![[Federated Learning]]
+
+## [[Black Box]]
+![[Black Box]]
+
+## [[Confusion Matrix]]
+![[Confusion Matrix]]
+
+6. Artificial General Intelligence (AGI)
+The pursuit of AI systems with human-like cognitive abilities across a broad range of tasks.
+
+6.1 AGI Concepts
+Theoretical foundations and conceptual frameworks for understanding and developing AGI.
+
+## [[Human-Level AI]]
+![[Human-Level AI]]
+
+## [[Superintelligence]]
+![[Superintelligence]]
+
+## [[Overhang]]
+![[Overhang]]
+
+## [[Cognitive Flexibility]]
+![[Cognitive Flexibility]]
+
+## [[Cross-Domain Competency]]
+![[Cross-Domain Competency]]
+
+## [[Autonomous Reasoning]]
+![[Autonomous Reasoning]]
+
+## [[Autonomous Learning]]
+![[Autonomous Learning]]
+
+## [[Universal Learning Algorithms]]
+![[Universal Learning Algorithms]]
+
+## [[World Model]]
+![[World Model]]
+
+## [[Embodied Intelligence]]
+![[Embodied Intelligence]]
+
+## [[Computational Creativity]]
+![[Computational Creativity]]
+
+## [[Foundation Model]]
+![[Foundation Model]]
+
+## [[Frontier Models]]
+![[Frontier Models]]
+
+6.2 AGI Approaches
+Diverse methodologies and strategies aimed at achieving AGI.
+
+## [[Symbolic AI]]
+![[Symbolic AI]]
+
+## [[Connectionist AI]]
+![[Connectionist AI]]
+
+## [[Hybrid AI]]
+![[Hybrid AI]]
+
+## [[Neurosymbolic AI]]
+![[Neurosymbolic AI]]
+
+## [[Embodied AI]]
+![[Embodied AI]]
+
+## [[Evolutionary Algorithm]]
+![[Evolutionary Algorithm]]
+
+## [[Autopoiesis]]
+![[Autopoiesis]]
+
+## [[Artefactual Autopoiesis]]
+![[Artefactual Autopoiesis]]
+
+## [[Whole Brain Emulation (WBE)]]
+![[Whole Brain Emulation (WBE)]]
+
+## [[Scalable Instructable Multiworld Agent (SIMA)]]
+![[Scalable Instructable Multiworld Agent (SIMA)]]
+
+7. AI Ethics and Governance
+Principles and frameworks guiding the ethical development, deployment, and governance of AI.
+
+7.1 AI Ethics
+Moral principles and considerations in the design, development, and deployment of AI technologies.
+
+## [[Ethical AI]]
+![[Ethical AI]]
+
+## [[Bias and Fairness]]
+![[Bias and Fairness]]
+
+## [[De-Biasing]]
+![[De-Biasing]]
+
+## [[Accountability]]
+![[Accountability]]
+
+## [[Transparency]]
+![[Transparency]]
+
+## [[Privacy]]
+![[Privacy]]
+
+## [[Security]]
+![[Security]]
+
+## [[Dual Use]]
+![[Dual Use]]
+
+## [[Dual Use Foundational Model]]
+![[Dual Use Foundational Model]]
+
+## [[Empathic AI]]
+![[Empathic AI]]
+
+## [[Constitutional AI]]
+![[Constitutional AI]]
+
+7.2 AI Governance
+Policies, regulations, and standards governing the responsible use and development of AI.
+
+## [[AI Governance]]
+![[AI Governance]]
+
+## [[AI Watchdog]]
+![[AI Watchdog]]
+
+## [[Regulation]]
+![[Regulation]]
+
+## [[Standards]]
+![[Standards]]
+
+## [[Auditing]]
+![[Auditing]]
+
+## [[Testing]]
+![[Testing]]
+
+## [[Certification]]
+![[Certification]]
+
+## [[Coalition for Content Provenance and Authenticity (C2PA)]]
+![[Coalition for Content Provenance and Authenticity (C2PA)]]
+
+## [[Guardrails]]
+![[Guardrails]]
+
+## [[Human-in-the-Loop (HITL)]]
+![[Human-in-the-Loop (HITL)]]
+
+## [[Orchestration]]
+![[Orchestration]]
+
+## [[Steerability]]
+![[Steerability]]
+
+
+---
+
+
+
+Centaur (4.2 AI Applications)
+Context Window
+Custom Instructions
+Deterministic
+Fine Tuning
+Inference
+Instantiation
+Joint Embedding Architecture
+Logits
+Machine Understanding
+Negative Feedback

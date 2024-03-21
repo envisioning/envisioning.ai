@@ -111,6 +111,16 @@ document.addEventListener("DOMContentLoaded", function() {
                         2: "#FDA403", // Level 2
                         3: "#E8751A", // Level 3
                         4: "#898121"  // Level 4
+                    },
+                    6: { // Chapter 5 
+                        2: "#824D74", // Level 2
+                        3: "#BE7B72", // Level 3
+                        4: "#FDAF7B"  // Level 4
+                    },
+                    7: { // Chapter 5 
+                        2: "#496989", // Level 2
+                        3: "#58A399", // Level 3
+                        4: "#A8CD9F"  // Level 4
                     }
                 };
                 // Use chapter and level to determine color

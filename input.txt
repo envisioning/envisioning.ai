@@ -214,7 +214,7 @@ Process of enhancing algorithms' ability to efficiently search for the most opti
 Training Cost
 Quantifies the resources required to develop AI models, including computational expenses, energy consumption, and human expertise.
 
-2. Advanced AI Techniques
+2.Advanced AI Techniques
 Sophisticated methodologies extending foundational AI concepts to address complex problems.
 
 2.1 Generative Models
