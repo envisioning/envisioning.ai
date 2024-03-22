@@ -54,7 +54,8 @@ d3.json("data.json").then(function(data) {
         .attr("stroke", "black")
         .attr("stroke-width", 2);
 
-      tooltip.text(d.description)
+      const category = d.chapter === 1 ? 'Fundamentals' : d.chapter === 2 ? 'Advanced Concepts' : d.chapter === 3 ? 'Techniques and Architectures' : d.chapter === 4 ? 'Data and Processing' : d.chapter === 5 ? 'Applications' : d.chapter === 6 ? 'AGI' : d.chapter === 7 ? 'Ethics' :''; // Add category based on chapter
+      tooltip.html(`<div><b>${d.title}</b></div><div>${category}</div><div><em>${d.description}</em></div>`) // Modify the tooltip content
         .style("opacity", 1)
         .style("background-color", d3.select(this).attr("fill")) // Set the background color
         .style("left", (event.pageX + 10) + "px")
@@ -81,7 +82,8 @@ d3.json("data.json").then(function(data) {
     .on("mouseover", function(event, d) {
       const circle = selectCircleById(d.id); // Pass d.id to the helper function
       circle.attr("cursor", "pointer"); // Set the cursor style to pointer
-      tooltip.text(d.description)
+      const category = d.chapter === 1 ? 'Foundations' : d.chapter === 2 ? 'Applications' : ''; // Add category based on chapter
+      tooltip.html(`<div>${d.title}</div><div>${d.description}</div><div>Category: ${category}</div>`) // Modify the tooltip content
         .style("opacity", 1)
         .style("background-color", circle.attr("fill")) // Set the background color to the circle's fill color
         .style("left", (event.pageX + 10) + "px")
