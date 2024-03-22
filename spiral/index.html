@@ -24,44 +24,32 @@
         }
 
         .circle {
+            cursor: pointer;
         }
 
-    .circle-text {
-      font-size: 12px;
-      text-anchor: middle;
-      alignment-baseline: central;
-      fill: white;
-      pointer-events: none;
-    }
-
-    .circle-title {
-      font-size: 18px;
-      font-weight: bold;
-      text-anchor: middle;
-      fill: white;
-    }
-
-    .circle-description {
-      font-size: 12px;
-      text-anchor: middle;
-      fill: white;
-    }
-
-    .circle-number {
-            font-size: 12px;
-            text-anchor: middle;
-            alignment-baseline: hanging;
+        .circle-title {
+            font-size: 18px;
+            font-weight: bold;
             fill: white;
+            cursor: pointer;
+        }
+
+        .tooltip {
             pointer-events: none;
+            font-size: 14px;
+            width: 200px;
         }
     </style>
 </head>
 
 <body>
     <div id="sunflower-pattern"></div>
-<script src="https://d3js.org/d3.v6.min.js"></script>
-<script src="https://d3js.org/d3-interpolate.v2.min.js"></script>
-<script src="script.js"></script>
+    <div id="content-container"></div>
+
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="https://d3js.org/d3-interpolate.v2.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.1.0/showdown.min.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
