@@ -1,255 +1,255 @@
-1-N Systems
-A-Life (Artificial Life)
-AGI (Artificial General Intelligence)
-AI Effect
-AI Governance
-AI Watchdog
-ANN (Artificial Neural Networks)
-ASR (Automatic Speech Recognition)
-AV (Autonomous Vehicles)
-Adaptive Problem Solving
-Adversarial Instructions
-Agentic AI Systems
-Alignment
-Anomaly Detection
-Artefactual Autopoiesis
-Attention Mechanisms
-AutoML (Automated Machine Learning)
-Autoencoder
-Autonomous Agents
-Autonomous Learning
-Autonomous Reasoning
-Autopoiesis
-Autoregressive Generation
-BCI (Brain Computer Interface)
-BERT (Bidirectional Encoder Representations from Transformers)
-Backpropagation
-Bagging
-Base Model
-Bayesian Network
-Black Box
-Blind Alley
-Boosting
-C2PA (Coalition for Content Provenance and Authenticity)
-CLI (Command Line Interface)
-CNN (Convolutional Neural Network)
-CUDA (Compute Unified Device Architecture)
-Capability Control
-Capsule Networks
-Catastrophic Forgetting
-Causal Inference
-Centaur
-Chain of Thought
-Classifier
-Clustering
-Co-Pilot
-Cognitive Architecture
-Cognitive Computing
-Cognitive Flexibility
-Computational Creativity
-Confidential Computing
-Confusion Matrix
-Connectionist AI
-Constitutional AI
-Context Window
-ControlNet
-Counterfactual Explanations
-Cross Validation
-Cross-Domain Competency
-Custom Instructions
-DAG (Directed Acyclic Graphs)
-DL (Deep Learning)
-DNN (Deep Neural Networks)
-DRL (Deep Reinforcement Learning)
-Data Augmentation
-Data Mining
-Dataset
-De-Biasing
-Decision Tree
-Denoising
-Deterministic
-Differential Privacy
-Diffusion
-Dimensionality Reduction
-Discriminative AI
-Discriminator
-Dropout
-Dual Use Foundational Model
-Dual Use
-EBM (Energy-Based Model)
-Effective Accelerationism
-Embedding
-Embodied AI
-Embodied Intelligence
-Empathic AI
-Ensemble Learning
-Ethical AI
-Evolutionary Algorithm
-Exascale
-Expert System
-Explainability
-FCN (Fully Convolutional Networks)
-FHE (Fully Homomorphic Encryption)
-FPGA (Field-Programmable Gate Array)
-FSL (Few-Shot Learning)
-Feature Extraction
-Feature Importance
-Federated Learning
-Fine Tuning
-Foundation Model
-Frontier Models
-GAN (Generative Adversarial Network)
-GFlowNet (Generative Flow Networks)
-GIGO (Garbage In, Garbage Out)
-GNN (Graph Neural Networks)
-GPT (Generative Pre-Trained Transformer)
-GPU (Graphics Processing Unit)
-Generalization
-Generative
-Gradient Descent
-Graph Theory
-Groundedness
-Guardrails
-HITL (Human-in-the-Loop)
-HMI (Human-Machine Interface)
-Hallucination
-Hierarchical Planning
-Human-Level AI
-Hybrid AI
-Hyperparameter
-IR (Information Retrieval)
-IRL (Inverse Reinforcement Learning)
-ITM (Image-Text Matching)
-Image Recognition
-Image Synthesis
-Imitation Learning
-Inference Acceleration
-Inference
-Instantiation
-Intelligence Explosion
-Interpretability
-Jailbreaking
-Joint Embedding Architecture
-Knowledge Graph
-Knowledge Representation
-LAM (Large Action Model)
-LLM (Large Language Model)
-LMN (Large Nature Model)
-LSTM (Long Short-Term Memory)
-Logits
-Loss Function
-Loss Optimization
-ML (Machine Learning)
-MLLMs (Multimodal Large Language Models)
-MLM (Masked-Language Modeling)
-MPC (Model-Predictive Control)
-MTL (Multi-Task Learning)
-Machine Understanding
-Memory Systems
-Meta Prompt
-Meta-Classifier
-Meta-Learning
-Meta-Regressor
-MoE (Mixture-of-Experts)
-Model Compression
-Model Drift Minimization
-Model Drift
-Multiagent
-Multimodal
-NAS (Neural Architecture Search)
-NHI (Non-Human Intelligence)
-NLD (Neural Lie Detectors)
-NLU (Natural Language Understanding)
-NPC (Non-Player Character)
-NeRF (Neural Radiance Fields)
-Negative Feedback
-Neurosymbolic AI
-Noise
-Non-Contrastive
-Numerical Processing
-Object Detection
-Objective Function
-Observability
-Ontology
-Optimization Problem
-Orchestration
-Overfitting
-Overhang
-PFGM (Poisson Flow Generative Model)
-PPML (Privacy-Preserving Machine Learning)
-Parameter
-Perceptron
-Pretrained Model
-Prompt Engineering
-Prompt Injection
-Prompt
-QA (Question Answering)
-Quantization
-RAG (Retrieval-Augmented Generation)
-RFM (Robotics Foundational Model)
-RL (Reinforcement Learning)
-RLHF (Reinforcement Learning from Human Feedback)
-RNN (Recurrent Neural Network)
-Random Walk
-Recommendation Systems
-Recursive Self-Improvement
-Red Teaming
-Reflective Programming
-Regression
-Retrieval-Based (Model)
-SAM (Segment Anything Model)
-SIMA (Scalable Instructable Multiworld Agent)
-SSF (Stochastic Similarity Filter)
-Safety Net
-Sampling
-Scalar
-Search Optimization
-Self-Attention
-Semantic Segmentation
-Semi-Supervised Learning
-Sequence Models
-Silicon-Based Intelligence
-Simulation
-SoftMax
-Sovereign AI
-Speech Processing
-Stacking
-Steerability
-Stochastic Parrot
-Stochastic
-Structured Data
-Super Alignment
-Superintelligence
-Supervised Classifier
-Supervised Learning
-Symbolic AI
-Synthetic Data Generation
-System Prompt
-TESCREAL
-TPU (Tensor Processing Units)
-TTS (Text-to-Speech)
-Temperature
-Tensor
-Token
-Training Cost
-Training
-Transfer Learning
-Transformer
-Turing Test
-Uncensored AI
-Universal Learning Algorithms
-Unstructured Data
-Unsupervised Learning
-VAE (Variational Autoencoders)
-VLM (Visual Language Model)
-VQA (Visual Question Answering)
-Vector Database
-Vectorization
-WBE (Whole Brain Emulation)
-Wait Calculation
-Weight Decay
-Weight
-Word Vector
-World Model
-XAI (Explainable AI)
-ZSL (Zero-Shot Learning)
+"1-N Systems",
+"A-Life (Artificial Life)",
+"AGI (Artificial General Intelligence)",
+"AI Effect",
+"AI Governance",
+"AI Watchdog",
+"ANN (Artificial Neural Networks)",
+"ASR (Automatic Speech Recognition)",
+"AV (Autonomous Vehicles)",
+"Adaptive Problem Solving",
+"Adversarial Instructions",
+"Agentic AI Systems",
+"Alignment",
+"Anomaly Detection",
+"Artefactual Autopoiesis",
+"Attention Mechanisms",
+"AutoML (Automated Machine Learning)",
+"Autoencoder",
+"Autonomous Agents",
+"Autonomous Learning",
+"Autonomous Reasoning",
+"Autopoiesis",
+"Autoregressive Generation",
+"BCI (Brain Computer Interface)",
+"BERT (Bidirectional Encoder Representations from Transformers)",
+"Backpropagation",
+"Bagging",
+"Base Model",
+"Bayesian Network",
+"Black Box",
+"Blind Alley",
+"Boosting",
+"C2PA (Coalition for Content Provenance and Authenticity)",
+"CLI (Command Line Interface)",
+"CNN (Convolutional Neural Network)",
+"CUDA (Compute Unified Device Architecture)",
+"Capability Control",
+"Capsule Networks",
+"Catastrophic Forgetting",
+"Causal Inference",
+"Centaur",
+"Chain of Thought",
+"Classifier",
+"Clustering",
+"Co-Pilot",
+"Cognitive Architecture",
+"Cognitive Computing",
+"Cognitive Flexibility",
+"Computational Creativity",
+"Confidential Computing",
+"Confusion Matrix",
+"Connectionist AI",
+"Constitutional AI",
+"Context Window",
+"ControlNet",
+"Counterfactual Explanations",
+"Cross Validation",
+"Cross-Domain Competency",
+"Custom Instructions",
+"DAG (Directed Acyclic Graphs)",
+"DL (Deep Learning)",
+"DNN (Deep Neural Networks)",
+"DRL (Deep Reinforcement Learning)",
+"Data Augmentation",
+"Data Mining",
+"Dataset",
+"De-Biasing",
+"Decision Tree",
+"Denoising",
+"Deterministic",
+"Differential Privacy",
+"Diffusion",
+"Dimensionality Reduction",
+"Discriminative AI",
+"Discriminator",
+"Dropout",
+"Dual Use Foundational Model",
+"Dual Use",
+"EBM (Energy-Based Model)",
+"Effective Accelerationism",
+"Embedding",
+"Embodied AI",
+"Embodied Intelligence",
+"Empathic AI",
+"Ensemble Learning",
+"Ethical AI",
+"Evolutionary Algorithm",
+"Exascale",
+"Expert System",
+"Explainability",
+"FCN (Fully Convolutional Networks)",
+"FHE (Fully Homomorphic Encryption)",
+"FPGA (Field-Programmable Gate Array)",
+"FSL (Few-Shot Learning)",
+"Feature Extraction",
+"Feature Importance",
+"Federated Learning",
+"Fine Tuning",
+"Foundation Model",
+"Frontier Models",
+"GAN (Generative Adversarial Network)",
+"GFlowNet (Generative Flow Networks)",
+"GIGO (Garbage In, Garbage Out)",
+"GNN (Graph Neural Networks)",
+"GPT (Generative Pre-Trained Transformer)",
+"GPU (Graphics Processing Unit)",
+"Generalization",
+"Generative",
+"Gradient Descent",
+"Graph Theory",
+"Groundedness",
+"Guardrails",
+"HITL (Human-in-the-Loop)",
+"HMI (Human-Machine Interface)",
+"Hallucination",
+"Hierarchical Planning",
+"Human-Level AI",
+"Hybrid AI",
+"Hyperparameter",
+"IR (Information Retrieval)",
+"IRL (Inverse Reinforcement Learning)",
+"ITM (Image-Text Matching)",
+"Image Recognition",
+"Image Synthesis",
+"Imitation Learning",
+"Inference Acceleration",
+"Inference",
+"Instantiation",
+"Intelligence Explosion",
+"Interpretability",
+"Jailbreaking",
+"Joint Embedding Architecture",
+"Knowledge Graph",
+"Knowledge Representation",
+"LAM (Large Action Model)",
+"LLM (Large Language Model)",
+"LMN (Large Nature Model)",
+"LSTM (Long Short-Term Memory)",
+"Logits",
+"Loss Function",
+"Loss Optimization",
+"ML (Machine Learning)",
+"MLLMs (Multimodal Large Language Models)",
+"MLM (Masked-Language Modeling)",
+"MPC (Model-Predictive Control)",
+"MTL (Multi-Task Learning)",
+"Machine Understanding",
+"Memory Systems",
+"Meta Prompt",
+"Meta-Classifier",
+"Meta-Learning",
+"Meta-Regressor",
+"MoE (Mixture-of-Experts)",
+"Model Compression",
+"Model Drift Minimization",
+"Model Drift",
+"Multiagent",
+"Multimodal",
+"NAS (Neural Architecture Search)",
+"NHI (Non-Human Intelligence)",
+"NLD (Neural Lie Detectors)",
+"NLU (Natural Language Understanding)",
+"NPC (Non-Player Character)",
+"NeRF (Neural Radiance Fields)",
+"Negative Feedback",
+"Neurosymbolic AI",
+"Noise",
+"Non-Contrastive",
+"Numerical Processing",
+"Object Detection",
+"Objective Function",
+"Observability",
+"Ontology",
+"Optimization Problem",
+"Orchestration",
+"Overfitting",
+"Overhang",
+"PFGM (Poisson Flow Generative Model)",
+"PPML (Privacy-Preserving Machine Learning)",
+"Parameter",
+"Perceptron",
+"Pretrained Model",
+"Prompt Engineering",
+"Prompt Injection",
+"Prompt",
+"QA (Question Answering)",
+"Quantization",
+"RAG (Retrieval-Augmented Generation)",
+"RFM (Robotics Foundational Model)",
+"RL (Reinforcement Learning)",
+"RLHF (Reinforcement Learning from Human Feedback)",
+"RNN (Recurrent Neural Network)",
+"Random Walk",
+"Recommendation Systems",
+"Recursive Self-Improvement",
+"Red Teaming",
+"Reflective Programming",
+"Regression",
+"Retrieval-Based (Model)",
+"SAM (Segment Anything Model)",
+"SIMA (Scalable Instructable Multiworld Agent)",
+"SSF (Stochastic Similarity Filter)",
+"Safety Net",
+"Sampling",
+"Scalar",
+"Search Optimization",
+"Self-Attention",
+"Semantic Segmentation",
+"Semi-Supervised Learning",
+"Sequence Models",
+"Silicon-Based Intelligence",
+"Simulation",
+"SoftMax",
+"Sovereign AI",
+"Speech Processing",
+"Stacking",
+"Steerability",
+"Stochastic Parrot",
+"Stochastic",
+"Structured Data",
+"Super Alignment",
+"Superintelligence",
+"Supervised Classifier",
+"Supervised Learning",
+"Symbolic AI",
+"Synthetic Data Generation",
+"System Prompt",
+"TESCREAL",
+"TPU (Tensor Processing Units)",
+"TTS (Text-to-Speech)",
+"Temperature",
+"Tensor",
+"Token",
+"Training Cost",
+"Training",
+"Transfer Learning",
+"Transformer",
+"Turing Test",
+"Uncensored AI",
+"Universal Learning Algorithms",
+"Unstructured Data",
+"Unsupervised Learning",
+"VAE (Variational Autoencoders)",
+"VLM (Visual Language Model)",
+"VQA (Visual Question Answering)",
+"Vector Database",
+"Vectorization",
+"WBE (Whole Brain Emulation)",
+"Wait Calculation",
+"Weight Decay",
+"Weight",
+"Word Vector",
+"World Model",
+"XAI (Explainable AI)",
+"ZSL (Zero-Shot Learning)",

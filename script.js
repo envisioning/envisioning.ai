@@ -48,25 +48,8 @@ d3.json("data.json").then(function(data) {
     .attr("class", "circle")
     .attr("stroke", "none")
     .attr("fill", (d, i) => colorScheme[Math.floor(i / (numCircles / colorScheme.length)) % colorScheme.length])
-    .on("mouseover", function(event, d) {
-      if (!d) return; // Add this check
-      d3.select(this)
-        .attr("stroke", "black")
-        .attr("stroke-width", 2);
-
-      const category = d.chapter === 1 ? 'Fundamentals' : d.chapter === 2 ? 'Advanced Concepts' : d.chapter === 3 ? 'Techniques and Architectures' : d.chapter === 4 ? 'Data and Processing' : d.chapter === 5 ? 'Applications' : d.chapter === 6 ? 'AGI' : d.chapter === 7 ? 'Ethics' :''; // Add category based on chapter
-      tooltip.html(`<div><b>${d.title}</b></div><div>${category}</div><div><em>${d.description}</em></div>`) // Modify the tooltip content
-        .style("opacity", 1)
-        .style("background-color", d3.select(this).attr("fill")) // Set the background color
-        .style("left", (event.pageX + 10) + "px")
-        .style("top", (event.pageY - 10) + "px");
-    })
-    .on("mouseout", function() {
-      d3.select(this)
-        .attr("stroke", "none");
-
-      tooltip.style("opacity", 0);
-    });
+    .on("mouseover", showTooltip)
+    .on("mouseout", hideTooltip);
 
   const circleTexts = svg
     .selectAll("text.circle-text")
@@ -79,21 +62,8 @@ d3.json("data.json").then(function(data) {
     .attr("class", "circle-title")
     .style("opacity", 0)
     .text(d => d.title)
-    .on("mouseover", function(event, d) {
-      const circle = selectCircleById(d.id); // Pass d.id to the helper function
-      circle.attr("cursor", "pointer"); // Set the cursor style to pointer
-      const category = d.chapter === 1 ? 'Foundations' : d.chapter === 2 ? 'Applications' : ''; // Add category based on chapter
-      tooltip.html(`<div>${d.title}</div><div>${d.description}</div><div>Category: ${category}</div>`) // Modify the tooltip content
-        .style("opacity", 1)
-        .style("background-color", circle.attr("fill")) // Set the background color to the circle's fill color
-        .style("left", (event.pageX + 10) + "px")
-        .style("top", (event.pageY - 10) + "px");
-    })
-    .on("mouseout", function(d) {
-      const circle = selectCircleById(d.id); // Pass d.id to the helper function
-      circle.attr("cursor", "default"); // Set the cursor style back to default
-      tooltip.style("opacity", 0);
-    });
+    .on("mouseover", showTooltip)
+    .on("mouseout", hideTooltip);
 
   // Create a tooltip element
   const tooltip = d3.select("body")
@@ -106,6 +76,40 @@ d3.json("data.json").then(function(data) {
     .style("border-width", "1px")
     .style("border-radius", "5px")
     .style("padding", "5px");
+
+  function showTooltip(event, d) {
+    if (!d) return; // Add this check
+
+    const category = d.chapter === 1 ? 'Fundamentals' : d.chapter === 2 ? 'Advanced Concepts' : d.chapter === 3 ? 'Techniques and Architectures' : d.chapter === 4 ? 'Data and Processing' : d.chapter === 5 ? 'Applications' : d.chapter === 6 ? 'AGI' : d.chapter === 7 ? 'Ethics' : '';
+    const tooltipHtml = `<div><b>${d.title}</b></div><div>${category}</div><div><em>${d.description}</em></div>`;
+
+    const circle = d3.select(this).node().tagName === "circle" ? d3.select(this) : selectCircleById(d.id);
+
+    circle.attr("stroke", "black")
+      .attr("stroke-width", 2);
+
+    tooltip.html(tooltipHtml)
+      .style("opacity", 1)
+      .style("background-color", circle.attr("fill"))
+      .style("left", (event.pageX + 10) + "px")
+      .style("top", (event.pageY - 10) + "px");
+
+    if (d3.select(this).node().tagName === "text") {
+      circle.attr("cursor", "pointer");
+    }
+  }
+
+  function hideTooltip(d) {
+    const circle = d3.select(this).node().tagName === "circle" ? d3.select(this) : selectCircleById(d.id);
+
+    circle.attr("stroke", "none");
+
+    if (d3.select(this).node().tagName === "text") {
+      circle.attr("cursor", "default");
+    }
+
+    tooltip.style("opacity", 0);
+  }
 
   const zoom = d3.zoom().scaleExtent([0.1, 10]).on("zoom", zoomed);
 
@@ -131,16 +135,32 @@ d3.json("data.json").then(function(data) {
     };
   }
 
-  circles
-    .transition()
-    .duration(animationDuration)
-    .delay((d, i) => i * animationDuration / numCircles)
-    .attrTween("r", function(d) {
-      const startRadius = 0;
-      const endRadius = radius;
-      const interpolator = bouncingInterpolator(startRadius, endRadius);
-      return t => interpolator(t);
-    });
+circles
+  .transition()
+  .duration(animationDuration)
+  .delay((d, i) => i * animationDuration / numCircles)
+  .attrTween("r", function(d) {
+    const startRadius = 0;
+    const endRadius = radius;
+    const interpolator = bouncingInterpolator(startRadius, endRadius);
+    return t => {
+      const currentRadius = interpolator(t);
+      d3.select(this)
+        .on("mouseenter", function() {
+          d3.select(this)
+            .transition()
+            .duration(200)
+            .attr("r", currentRadius * 1.2);
+        })
+        .on("mouseleave", function() {
+          d3.select(this)
+            .transition()
+            .duration(200)
+            .attr("r", currentRadius);
+        });
+      return currentRadius;
+    };
+  });
 
   circleTexts
     .transition()
