@@ -7,13 +7,13 @@ d3.json("data.json").then(function(data) {
   const animationDuration = 2000;
 
   const colorScheme = [
-    "#FF9800", // Orange
-    "#F93822", // Red
-    "#BD3742", // Dark Red
-    "#7E2D40", // Maroon
-    "#254A5D", // Dark Blue
-    "#4A6D8C", // Blue
-    "#7F9EB2"  // Light Blue
+    "#D4EB4D",
+    "#FAD241", 
+    "#FFB850", 
+    "#FF9E6C", 
+    "#FF868E", 
+    "#FF78D4", 
+    "#A98AFF"  
   ];
 
   const svg = d3
@@ -85,8 +85,8 @@ d3.json("data.json").then(function(data) {
 
     const circle = d3.select(this).node().tagName === "circle" ? d3.select(this) : selectCircleById(d.id);
 
-    circle.attr("stroke", "black")
-      .attr("stroke-width", 2);
+    circle.attr("stroke", "white")
+      .attr("stroke-width", 4);
 
     tooltip.html(tooltipHtml)
       .style("opacity", 1)
@@ -135,6 +135,66 @@ d3.json("data.json").then(function(data) {
     };
   }
 
+// Type-ahead search function
+const searchInput = d3.select("body")
+  .append("input")
+  .attr("type", "text")
+  .attr("placeholder", "Search...")
+  .style("position", "absolute")
+  .style("top", "10px")
+  .style("left", "10px")
+  .on("input", searchCircles)
+  .on("keydown", function(event) {
+    if (event.key === "Escape") {
+      resetSearch();
+    }
+  });
+
+function searchCircles() {
+  const searchTerm = searchInput.property("value").toLowerCase();
+
+  circles.style("opacity", d => {
+    return d.title.toLowerCase().includes(searchTerm) ? 1 : 0.1;
+  });
+
+  circleTexts.style("opacity", d => {
+    return d.title.toLowerCase().includes(searchTerm) ? 1 : 0;
+  });
+
+  zoomToSelectedCircles();
+}
+
+function zoomToSelectedCircles() {
+  const selectedCircles = circles.filter(d => d.title.toLowerCase().includes(searchInput.property("value").toLowerCase()));
+
+  if (selectedCircles.empty()) {
+    // If no circles are selected, reset the zoom
+    svg.transition().duration(500).call(zoom.transform, initialTransform);
+  } else {
+    const selectedCirclesData = selectedCircles.data();
+    const minX = d3.min(selectedCirclesData, d => d.x);
+    const maxX = d3.max(selectedCirclesData, d => d.x);
+    const minY = d3.min(selectedCirclesData, d => d.y);
+    const maxY = d3.max(selectedCirclesData, d => d.y);
+
+    const padding = 100;
+    const zoomWidth = maxX - minX + 2 * padding;
+    const zoomHeight = maxY - minY + 2 * padding;
+    const zoomScale = Math.min(width / zoomWidth, height / zoomHeight);
+    const zoomTranslate = [
+      (width - zoomScale * (minX + maxX)) / 2,
+      (height - zoomScale * (minY + maxY)) / 2
+    ];
+
+    svg.transition().duration(500).call(zoom.transform, d3.zoomIdentity.translate(...zoomTranslate).scale(zoomScale));
+  }
+}
+
+function resetSearch() {
+  searchInput.property("value", "");
+  searchCircles();
+}
+
 circles
   .transition()
   .duration(animationDuration)
@@ -160,7 +220,8 @@ circles
         });
       return currentRadius;
     };
-  });
+  })
+  .style("opacity", 1); // Add this line to set initial opacity to 1
 
   circleTexts
     .transition()
